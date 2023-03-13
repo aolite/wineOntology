@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.9"
 d2s = "^0.3.3"
+pyshacl = "^0.20.0"
+rdflib-jsonld = "^0.6.2"
 
 
 [build-system]

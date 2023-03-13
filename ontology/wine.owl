@@ -7,6 +7,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://w3id.org/winecatalogue"
      versionIRI="https://w3id.org/winecatalogue/1.0.0">
+    <Prefix name="dbc" IRI="http://dbpedia.org/resource/Category:"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -44,6 +45,39 @@
         <Literal xml:lang="en">Draft</Literal>
     </Annotation>
     <Declaration>
+        <Class IRI="http://dbpedia.org/ontology/Wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Winery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isWineOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://dbpedia.org/ontology/wikiPageID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#acidity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#bodyScore"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#wineYear"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/abstract"/>
     </Declaration>
     <Declaration>
@@ -58,6 +92,188 @@
     <Declaration>
         <AnnotationProperty abbreviatedIRI="bibo:status"/>
     </Declaration>
+    <SubClassOf>
+        <Class IRI="#Wine"/>
+        <Class IRI="http://dbpedia.org/ontology/Wine"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isWineOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasWine"/>
+        <ObjectProperty IRI="#isWineOf"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWine"/>
+        <Class IRI="http://schema.org/Winery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWine"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://dbpedia.org/ontology/wikiPageID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasName"/>
+    </FunctionalDataProperty>
+    <DataPropertyRange>
+        <DataProperty IRI="http://dbpedia.org/ontology/wikiPageID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#acidity"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rating"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#wineYear"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://dbpedia.org/ontology/Wine</IRI>
+        <Literal xml:lang="en">Wine (from the Latin vinum) is a beverage made from grapes (Vitis vinifera species), through the alcoholic fermentation of their must or juice. Fermentation is produced by the metabolic action of yeasts, which transform the natural sugars of the fruit into ethanol and gas in the form of carbon dioxide. The sugar and acids in the fruit, Vitis vinifera, are sufficient for fermentation to take place. However, wine is a sum of environmental factors: climate, latitude, altitude, hours of light and temperature, among others. Approximately 66 % of the world&apos;s grape harvest is dedicated to wine production; the rest is for consumption as fruit. Despite this, vine cultivation covers only 0.5 % of the world&apos;s arable land.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://dbpedia.org/ontology/Wine</IRI>
+        <Literal xml:lang="en">http://dbpedia.org/ontology/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/Wine</IRI>
+        <Literal xml:lang="en">Wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://dbpedia.org/ontology/wikiPageID</IRI>
+        <Literal xml:lang="en">Internal Wiki Page ID for DBpedia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://dbpedia.org/ontology/wikiPageID</IRI>
+        <Literal xml:lang="en">http://dbpedia.org/ontology/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/wikiPageID</IRI>
+        <Literal xml:lang="en">wiki page ID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://schema.org/Winery</IRI>
+        <Literal xml:lang="en">A place where wine is made, especially from grapes that are grown there.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://schema.org/Winery</IRI>
+        <Literal xml:lang="en">http://schema.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://schema.org/Winery</IRI>
+        <Literal xml:lang="en">Winery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Wine</IRI>
+        <Literal xml:lang="en">An alcoholic drink that is usually made from grapes, but can also be made from other fruits or flowers. It is made by fermenting the fruit with water and sugar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Wine</IRI>
+        <Literal xml:lang="en">https://w3id.org/winecatalogue#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wine</IRI>
+        <Literal xml:lang="en">Wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#acidity</IRI>
+        <Literal xml:lang="en">A data property that represents the acidity score, defined as wine&apos;s “pucker” or tartness; it&apos;s what makes a wine refreshing and your tongue salivate and want another sip [from 1-5]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#acidity</IRI>
+        <Literal xml:lang="en">https://w3id.org/winecatalogue#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#acidity</IRI>
+        <Literal xml:lang="en">acidity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#bodyScore</IRI>
+        <Literal xml:lang="en">A data property that represents the richness and weight of the wine in your mouth [from 1-5]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#bodyScore</IRI>
+        <Literal xml:lang="en">https://w3id.org/winecatalogue#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bodyScore</IRI>
+        <Literal xml:lang="en">body score</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasName</IRI>
+        <Literal xml:lang="en">Data property that represents the name of an entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#hasName</IRI>
+        <Literal xml:lang="en">https://w3id.org/winecatalogue#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasName</IRI>
+        <Literal xml:lang="en">has name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#rating</IRI>
+        <Literal xml:lang="en">A data property that represents the average rating given to the wine by the users [from 1-5]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#rating</IRI>
+        <Literal xml:lang="en">https://w3id.org/winecatalogue#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rating</IRI>
+        <Literal xml:lang="en">rating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#wineYear</IRI>
+        <Literal xml:lang="en">A data property that represents the year in which the grapes were harvested</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#wineYear</IRI>
+        <Literal xml:lang="en">https://w3id.org/winecatalogue#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#wineYear</IRI>
+        <Literal xml:lang="en">wine Year</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 

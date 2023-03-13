@@ -1,0 +1,577 @@
+<http://dbpedia.org/resource/Condado_de_Huelva>	<http://dbpedia.org/property/wineProduced>	"77431"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Terra_Alta_(DO)>	<http://dbpedia.org/property/name>	"Terra Alta DOP"@en .
+<http://dbpedia.org/resource/La_Gomera_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/R\u00EDas_Baixas_(DO)>	<http://dbpedia.org/property/name>	"R\u00EDas Baixas DO"@en .
+<http://dbpedia.org/resource/Ribeiro_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"42.2833"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Condado_de_Huelva>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"42.4811"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Priorat_(DOQ)>	<http://dbpedia.org/property/wineProduced>	"14417"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Valdepe\u00F1as_(DO)>	<http://dbpedia.org/property/wineProduced>	"616017"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Lanzarote_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-13.6453"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Pened\u00E8s_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Mond\u00E9jar_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-3.10833"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Ribeira_Sacra_(DO)>	<http://dbpedia.org/property/wineries>	"90"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Empord\u00E0_(DO)>	<http://dbpedia.org/property/wineProduced>	"35965"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Valle_de_la_Orotava>	<https://w3id.org/winecatalogue#id>	"Valle de la Orotava"@en .
+<http://dbpedia.org/resource/Tacoronte-Acentejo>	<http://dbpedia.org/property/year>	"1992"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Valle_de_la_Orotava>	<http://dbpedia.org/ontology/wikiPageID>	"22420355"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ribeira_Sacra_(DO)>	<http://dbpedia.org/property/officialName>	"C.R.D.O. Ribeira Sacra"@en .
+<http://dbpedia.org/resource/Valencia_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Tacoronte-Acentejo>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Pened\u00E8s_(DO)>	<https://w3id.org/winecatalogue#id>	"Pened\u00E8s"@en .
+<http://dbpedia.org/resource/El_Hierro_(DO)>	<https://w3id.org/winecatalogue#id>	"El Hierro"@en .
+<http://dbpedia.org/resource/Cigales_(wine)>	<http://dbpedia.org/property/wineries>	"34"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Pla_de_Bages>	<https://w3id.org/winecatalogue#id>	"Pla de Bages"@en .
+<http://dbpedia.org/resource/Tarragona_(DO)>	<http://dbpedia.org/property/name>	"Tarragona DOP"@en .
+<http://dbpedia.org/resource/Empord\u00E0_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"3.00119"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/M\u00E1laga_and_Sierras_de_M\u00E1laga>	<http://dbpedia.org/ontology/wikiPageID>	"11136064"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Priorat_(DOQ)>	<http://dbpedia.org/property/officialName>	"Denominaci\u00F3 d'Origen Qualificada Priorat / Denominaci\u00F3 d'Origen Protegida Priorat"@en .
+<http://dbpedia.org/resource/Arlanza_(DO)>	<http://dbpedia.org/property/wineries>	"23"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Pla_i_Llevant_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Campo_de_Borja_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-1.53333"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Calatayud_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"41.65"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Bullas_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-1.67"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Bierzo_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"42.55"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Valle_de_G\u00FC\u00EDmar>	<http://dbpedia.org/property/name>	"Valle de G\u00FC\u00EDmar DOP"@en .
+<http://dbpedia.org/resource/Granada_(wine)>	<https://w3id.org/winecatalogue#id>	"Granada"@en .
+<http://dbpedia.org/resource/Cari\u00F1ena_(DO)>	<http://dbpedia.org/property/year>	"1932"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Cigales_(wine)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Almansa_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Alella_(DO)>	<http://dbpedia.org/property/wineProduced>	"9350.0"^^<http://dbpedia.org/datatype/hectolitre> .
+<http://dbpedia.org/resource/Pla_de_Bages>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Pened\u00E8s_(DO)>	<http://dbpedia.org/property/wineProduced>	"147157"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Campo_de_Borja_(DO)>	<http://dbpedia.org/property/wineProduced>	"248509"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Jumilla_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P. Jumilla"@en .
+<http://dbpedia.org/resource/Valdepe\u00F1as_(DO)>	<http://dbpedia.org/property/year>	"1932"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Manchuela_DO>	<http://dbpedia.org/ontology/wikiPageID>	"11465733"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Valle_de_la_Orotava>	<http://dbpedia.org/property/officialName>	"D.O.P. Valle de la Orotava"@en .
+<http://dbpedia.org/resource/Tarragona_(DO)>	<http://dbpedia.org/property/wineries>	"32"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Toro_(DO)>	<http://dbpedia.org/property/wineries>	"63"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ribera_del_J\u00FAcar>	<http://dbpedia.org/property/officialName>	"D.O.P. Ribera del J\u00FAcar"@en .
+<http://dbpedia.org/resource/Tacoronte-Acentejo>	<http://dbpedia.org/property/name>	"Tacoronte-Acentejo DOP"@en .
+<http://dbpedia.org/resource/Getariako_Txakolina>	<https://w3id.org/winecatalogue#id>	"Getariako Txakolina-Txakoli de Getaria. Chacol\u00ED de Getaria"@en .
+<http://dbpedia.org/resource/Utiel-Requena>	<http://dbpedia.org/property/name>	"Utiel - Requena DOP"@en .
+<http://dbpedia.org/resource/La_Gomera_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P. La Gomera"@en .
+<http://dbpedia.org/resource/Ribera_del_J\u00FAcar>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"39.3667"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Condado_de_Huelva>	<http://dbpedia.org/property/officialName>	"D.O.P. Condado de Huelva"@en .
+<http://dbpedia.org/resource/Ribeiro_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"12051338"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Valencia_(DO)>	<https://w3id.org/winecatalogue#id>	"Valencia"@en .
+<http://dbpedia.org/resource/La_Gomera_(DO)>	<http://dbpedia.org/property/wineries>	"17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Getariako_Txakolina>	<http://dbpedia.org/property/name>	"Getariako Txakolina-Txakoli de Getaria. Chacol\u00ED de Getaria DOP"@en .
+<http://dbpedia.org/resource/Cigales_(wine)>	<http://dbpedia.org/property/year>	"1991"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/M\u00E1laga_and_Sierras_de_M\u00E1laga>	<http://dbpedia.org/property/officialName>	"D.O.P. M\u00E1laga"@en .
+<http://dbpedia.org/resource/Pla_de_Bages>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"41.7206"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Abona_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Montsant_DO>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"0.821389"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Valle_de_G\u00FC\u00EDmar>	<http://dbpedia.org/property/wineProduced>	"1449"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Mond\u00E9jar_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"11627144"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Valdepe\u00F1as_(DO)>	<http://dbpedia.org/property/wineries>	"17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Bullas_(DO)>	<http://dbpedia.org/property/wineProduced>	"17623"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/M\u00E9ntrida_DO>	<http://dbpedia.org/property/officialName>	"D.O.P. M\u00E9ntrida"@en .
+<http://dbpedia.org/resource/Catalunya_(DO)>	<http://dbpedia.org/property/wineProduced>	"379736"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ribeiro_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Priorat_(DOQ)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Mond\u00E9jar_(DO)>	<http://dbpedia.org/property/name>	"Mond\u00E9jar DOP"@en .
+<http://dbpedia.org/resource/Alella_(DO)>	<http://dbpedia.org/property/year>	"1953"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Montilla-Moriles>	<http://dbpedia.org/ontology/wikiPageID>	"11100686"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Manzanilla_(wine)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"36.7736"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Costers_del_Segre>	<http://dbpedia.org/property/name>	"Costers del Segre DOP"@en .
+<http://dbpedia.org/resource/La_Mancha_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-3.20556"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/El_Hierro_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"22490571"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ucl\u00E9s_(DO)>	<https://w3id.org/winecatalogue#id>	"Ucl\u00E9s"@en .
+<http://dbpedia.org/resource/La_Palma_(DO)>	<http://dbpedia.org/property/name>	"La Palma DOP"@en .
+<http://dbpedia.org/resource/Ribeira_Sacra_(DO)>	<http://dbpedia.org/property/wineProduced>	"35787"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Somontano>	<http://dbpedia.org/ontology/wikiPageID>	"11002639"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Valle_de_G\u00FC\u00EDmar>	<https://w3id.org/winecatalogue#id>	"Valle de G\u00FC\u00EDmar"@en .
+<http://dbpedia.org/resource/Manchuela_DO>	<http://dbpedia.org/property/wineProduced>	"52003"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Conca_de_Barber\u00E0_(DO)>	<http://dbpedia.org/property/year>	"1989"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Bizkaiko_Txakolina>	<http://dbpedia.org/property/officialName>	"D.O.P. Bizkaiko Txakolina-Txakoli de Bizkaia-Chacol\u00ED de Bizkaia"@en .
+<http://dbpedia.org/resource/Almansa_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"11466715"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Valdepe\u00F1as_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"11645383"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Condado_de_Huelva>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Somontano>	<http://dbpedia.org/property/wineProduced>	"184449"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Almansa_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-1.08333"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Cari\u00F1ena_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P Cari\u00F1ena"@en .
+<http://dbpedia.org/resource/Valle_de_la_Orotava>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"28.3919"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Terra_Alta_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"41.05"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Valencia_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"39.4667"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/La_Palma_(DO)>	<http://dbpedia.org/property/year>	"1994"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Valdepe\u00F1as_(DO)>	<http://dbpedia.org/property/name>	"Valdepe\u00F1as DOP"@en .
+<http://dbpedia.org/resource/Granada_(wine)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Manchuela_DO>	<http://dbpedia.org/property/year>	"2004"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Tierra_del_Vino_de_Zamora_DO>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Getariako_Txakolina>	<http://dbpedia.org/ontology/wikiPageID>	"22418504"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Montsant_DO>	<http://dbpedia.org/property/name>	"Montsant DOP"@en .
+<http://dbpedia.org/resource/Tierra_del_Vino_de_Zamora_DO>	<http://dbpedia.org/ontology/wikiPageID>	"19357370"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Tarragona_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"11831388"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Catalunya_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"11710601"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Utiel-Requena>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Rueda_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Vinos_de_Madrid>	<https://w3id.org/winecatalogue#id>	"Vinos de Madrid"@en .
+<http://dbpedia.org/resource/Bizkaiko_Txakolina>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Catalunya_(DO)>	<http://dbpedia.org/property/name>	"Catalunya DOP"@en .
+<http://dbpedia.org/resource/Navarra_(DO)>	<https://w3id.org/winecatalogue#id>	"Navarra"@en .
+<http://dbpedia.org/resource/Getariako_Txakolina>	<http://dbpedia.org/property/wineries>	"31"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Bizkaiko_Txakolina>	<http://dbpedia.org/property/year>	"1994"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Valle_de_G\u00FC\u00EDmar>	<http://dbpedia.org/property/officialName>	"D.O.P. Valle de G\u00FC\u00EDmar"@en .
+<http://dbpedia.org/resource/Empord\u00E0_(DO)>	<http://dbpedia.org/property/name>	"Empord\u00E0 DOP"@en .
+<http://dbpedia.org/resource/La_Palma_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P. La Palma"@en .
+<http://dbpedia.org/resource/Pla_de_Bages>	<http://dbpedia.org/property/wineProduced>	"3689"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Abona_(DO)>	<http://dbpedia.org/property/year>	"1996"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Alella_(DO)>	<http://dbpedia.org/property/officialName>	"Denominaci\u00F3 d'Origen Alella"@en .
+<http://dbpedia.org/resource/Granada_(wine)>	<http://dbpedia.org/property/name>	"Granada DOP"@en .
+<http://dbpedia.org/resource/Tacoronte-Acentejo>	<http://dbpedia.org/property/officialName>	"D.O.P. Tacoronte-Acentejo"@en .
+<http://dbpedia.org/resource/Valdepe\u00F1as_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P Valdepe\u00F1as"@en .
+<http://dbpedia.org/resource/Toro_(DO)>	<http://dbpedia.org/property/name>	"Toro DOP"@en .
+<http://dbpedia.org/resource/Pla_i_Llevant_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"39.4714"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Arlanza_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Pla_de_Bages>	<http://dbpedia.org/ontology/wikiPageID>	"11784976"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Tierra_del_Vino_de_Zamora_DO>	<http://dbpedia.org/property/year>	"2007"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Alicante_(DO)>	<http://dbpedia.org/property/officialName>	"D.O. Alicante"@en .
+<http://dbpedia.org/resource/Ycoden-Daute-Isora>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"28.3744"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/M\u00E1laga_and_Sierras_de_M\u00E1laga>	<http://dbpedia.org/property/year>	"1932"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Valle_de_la_Orotava>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Conca_de_Barber\u00E0_(DO)>	<http://dbpedia.org/property/wineries>	"26"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Manzanilla_(wine)>	<https://w3id.org/winecatalogue#id>	"Manzanilla-Sanl\u00FAcar de Barrameda"@en .
+<http://dbpedia.org/resource/Lanzarote_(DO)>	<http://dbpedia.org/property/year>	"1994"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ucl\u00E9s_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"22454730"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Catalunya_(DO)>	<https://w3id.org/winecatalogue#id>	"Catalunya"@en .
+<http://dbpedia.org/resource/Vinos_de_Madrid>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Campo_de_Borja_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Ribeira_Sacra_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Lanzarote_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Arribes_(wine)>	<http://dbpedia.org/property/name>	"Arribes DOP"@en .
+<http://dbpedia.org/resource/Costers_del_Segre>	<http://dbpedia.org/property/officialName>	"D.O.P. Costers del Segre"@en .
+<http://dbpedia.org/resource/Tarragona_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"41.1333"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Cigales_(wine)>	<http://dbpedia.org/property/name>	"Cigales DOP"@en .
+<http://dbpedia.org/resource/Costers_del_Segre>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"41.6022"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Catalunya_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Campo_de_Borja_(DO)>	<http://dbpedia.org/property/name>	"Campo de Borja DOP"@en .
+<http://dbpedia.org/resource/Bullas_(DO)>	<http://dbpedia.org/property/name>	"Bullas DOP"@en .
+<http://dbpedia.org/resource/Ribera_del_J\u00FAcar>	<http://dbpedia.org/ontology/wikiPageID>	"11644557"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Cari\u00F1ena_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Getariako_Txakolina>	<http://dbpedia.org/property/wineProduced>	"15143"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ribera_del_Guadiana>	<https://w3id.org/winecatalogue#id>	"Ribera del Guadiana"@en .
+<http://dbpedia.org/resource/Campo_de_Borja_(DO)>	<http://dbpedia.org/property/wineries>	"18"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Montilla-Moriles>	<http://dbpedia.org/property/wineProduced>	"206960"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Arribes_(wine)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"41.3236"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Ribeiro_(DO)>	<https://w3id.org/winecatalogue#id>	"Ribeiro"@en .
+<http://dbpedia.org/resource/Rueda_(DO)>	<http://dbpedia.org/property/wineries>	"68"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Tierra_del_Vino_de_Zamora_DO>	<http://dbpedia.org/property/wineProduced>	"803"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Navarra_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"12083040"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Rueda_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"11713545"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/La_Gomera_(DO)>	<http://dbpedia.org/property/name>	"La Gomera DOP"@en .
+<http://dbpedia.org/resource/Bullas_(DO)>	<https://w3id.org/winecatalogue#id>	"Bullas"@en .
+<http://dbpedia.org/resource/Ribeiro_(DO)>	<http://dbpedia.org/property/wineProduced>	"35787"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Alicante_(DO)>	<http://dbpedia.org/property/year>	"1932"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Pened\u00E8s_(DO)>	<http://dbpedia.org/property/name>	"Pened\u00E8s DOP"@en .
+<http://dbpedia.org/resource/La_Gomera_(DO)>	<http://dbpedia.org/property/year>	"2009"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ribera_del_Guadiana>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-6.4"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Catalunya_(DO)>	<http://dbpedia.org/property/wineries>	"226"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Arribes_(wine)>	<http://dbpedia.org/ontology/wikiPageID>	"18381388"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Txakoli_de_\u00C1lava>	<https://w3id.org/winecatalogue#id>	"Arabako Txakolina-Txakol\u00ED de \u00C1lava-Chacol\u00ED de \u00C1lava"@en .
+<http://dbpedia.org/resource/Abona_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P. Abona"@en .
+<http://dbpedia.org/resource/Valle_de_la_Orotava>	<http://dbpedia.org/property/name>	"Valle de la Orotava DOP"@en .
+<http://dbpedia.org/resource/Ribera_del_J\u00FAcar>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-2.2"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Utiel-Requena>	<http://dbpedia.org/property/officialName>	"D.O.P. Utiel - Requena"@en .
+<http://dbpedia.org/resource/Jumilla_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"38.7833"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Valdepe\u00F1as_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"38.7667"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Granada_(wine)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-3.60056"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Somontano>	<http://dbpedia.org/property/wineries>	"31"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Montsant_DO>	<https://w3id.org/winecatalogue#id>	"Montsant"@en .
+<http://dbpedia.org/resource/M\u00E1laga_and_Sierras_de_M\u00E1laga>	<http://dbpedia.org/property/name>	"M\u00E1laga DOP"@en .
+<http://dbpedia.org/resource/Pla_i_Llevant_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"2.14344"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Ribera_del_J\u00FAcar>	<http://dbpedia.org/property/wineries>	"9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/M\u00E9ntrida_DO>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/La_Mancha_(DO)>	<https://w3id.org/winecatalogue#id>	"La Mancha"@en .
+<http://dbpedia.org/resource/La_Gomera_(DO)>	<https://w3id.org/winecatalogue#id>	"La Gomera"@en .
+<http://dbpedia.org/resource/Ribeira_Sacra_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"12068829"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Abona_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"14228657"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Manzanilla_(wine)>	<http://dbpedia.org/property/officialName>	"D.O.P. Manzanilla-Sanl\u00FAcar de Barrameda"@en .
+<http://dbpedia.org/resource/Terra_Alta_(DO)>	<https://w3id.org/winecatalogue#id>	"Terra Alta"@en .
+<http://dbpedia.org/resource/Campo_de_Borja_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P Campo de Borja"@en .
+<http://dbpedia.org/resource/Mond\u00E9jar_(DO)>	<http://dbpedia.org/property/wineProduced>	"1519"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/M\u00E1laga_and_Sierras_de_M\u00E1laga>	<http://dbpedia.org/property/wineries>	"40"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Navarra_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"42.4811"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Manzanilla_(wine)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-6.35694"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Alella_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"11665256"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ribera_del_Guadiana>	<http://dbpedia.org/property/wineries>	"26"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Catalunya_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P. Catalunya"@en .
+<http://dbpedia.org/resource/Manchuela_DO>	<http://dbpedia.org/property/name>	"Manchuela DOP"@en .
+<http://dbpedia.org/resource/Montilla-Moriles>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-4.6395"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Navarra_(DO)>	<http://dbpedia.org/property/name>	"Navarra DOP"@en .
+<http://dbpedia.org/resource/Pened\u00E8s_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"1.74957"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Pla_i_Llevant_(DO)>	<http://dbpedia.org/property/name>	"Pla i Llevant DOP"@en .
+<http://dbpedia.org/resource/Empord\u00E0_(DO)>	<https://w3id.org/winecatalogue#id>	"Empord\u00E0"@en .
+<http://dbpedia.org/resource/Vinos_de_Madrid>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-4.01361"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Vinos_de_Madrid>	<http://dbpedia.org/property/officialName>	"D.O.P. Vinos de Madrid"@en .
+<http://dbpedia.org/resource/Navarra_(DO)>	<http://dbpedia.org/property/year>	"1933"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Utiel-Requena>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"39.5062"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Mond\u00E9jar_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P. Mond\u00E9jar"@en .
+<http://dbpedia.org/resource/Calatayud_(DO)>	<http://dbpedia.org/property/name>	"Calatayud DOP"@en .
+<http://dbpedia.org/resource/Condado_de_Huelva>	<https://w3id.org/winecatalogue#id>	"Condado de Huelva"@en .
+<http://dbpedia.org/resource/Valle_de_la_Orotava>	<http://dbpedia.org/property/wineries>	"14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Valencia_(DO)>	<http://dbpedia.org/property/name>	"Valencia DOP"@en .
+<http://dbpedia.org/resource/Catalunya_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"1.46667"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Pened\u00E8s_(DO)>	<http://dbpedia.org/property/year>	"1932"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Abona_(DO)>	<http://dbpedia.org/property/wineries>	"19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Txakoli_de_\u00C1lava>	<http://dbpedia.org/property/name>	"Arabako Txakolina-Txakol\u00ED de \u00C1lava-Chacol\u00ED de \u00C1lava DOP"@en .
+<http://dbpedia.org/resource/Tierra_del_Vino_de_Zamora_DO>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"41.4989"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Tierra_del_Vino_de_Zamora_DO>	<http://dbpedia.org/property/name>	"Tierra del Vino de Zamora DOP"@en .
+<http://dbpedia.org/resource/Alella_(DO)>	<http://dbpedia.org/property/wineries>	"8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Alella_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"41.4953"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Ycoden-Daute-Isora>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/La_Palma_(DO)>	<https://w3id.org/winecatalogue#id>	"La Palma"@en .
+<http://dbpedia.org/resource/M\u00E1laga_and_Sierras_de_M\u00E1laga>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Ribera_del_Guadiana>	<http://dbpedia.org/ontology/wikiPageID>	"11989429"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Arlanza_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"19357314"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Pla_de_Bages>	<http://dbpedia.org/property/officialName>	"D.O.P. Pla de Bages"@en .
+<http://dbpedia.org/resource/Tacoronte-Acentejo>	<http://dbpedia.org/property/wineProduced>	"6501"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/M\u00E1laga_and_Sierras_de_M\u00E1laga>	<http://dbpedia.org/property/officialName>	"D.O.P. Sierras de M\u00E1laga"@en .
+<http://dbpedia.org/resource/El_Hierro_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Costers_del_Segre>	<http://dbpedia.org/property/wineries>	"36"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Manchuela_DO>	<http://dbpedia.org/property/officialName>	"D.O.P. Manchuela"@en .
+<http://dbpedia.org/resource/Conca_de_Barber\u00E0_(DO)>	<http://dbpedia.org/property/name>	"Conca de Barber\u00E0 DOP"@en .
+<http://dbpedia.org/resource/Empord\u00E0_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"42.3883"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Montilla-Moriles>	<https://w3id.org/winecatalogue#id>	"Montilla - Moriles"@en .
+<http://dbpedia.org/resource/Tacoronte-Acentejo>	<http://dbpedia.org/property/wineries>	"31"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Terra_Alta_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"11831910"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Montsant_DO>	<http://dbpedia.org/property/wineries>	"55"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Pla_i_Llevant_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"13925041"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Vinos_de_Madrid>	<http://dbpedia.org/ontology/wikiPageID>	"11607982"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Vinos_de_Madrid>	<http://dbpedia.org/property/wineries>	"44"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ribeiro_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-8.13333"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Bullas_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P. Bullas"@en .
+<http://dbpedia.org/resource/Jumilla_(DO)>	<http://dbpedia.org/property/wineries>	"45"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Arlanza_(DO)>	<https://w3id.org/winecatalogue#id>	"Arlanza"@en .
+<http://dbpedia.org/resource/M\u00E9ntrida_DO>	<http://dbpedia.org/property/wineProduced>	"31071"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Rueda_(DO)>	<http://dbpedia.org/property/year>	"1980"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Montsant_DO>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"41.1469"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Calatayud_(DO)>	<http://dbpedia.org/property/year>	"1990"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Bierzo_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-6.58333"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Tacoronte-Acentejo>	<https://w3id.org/winecatalogue#id>	"Tacoronte-Acentejo"@en .
+<http://dbpedia.org/resource/Arribes_(wine)>	<https://w3id.org/winecatalogue#id>	"Arribes"@en .
+<http://dbpedia.org/resource/Costers_del_Segre>	<https://w3id.org/winecatalogue#id>	"Costers del Segre"@en .
+<http://dbpedia.org/resource/Utiel-Requena>	<http://dbpedia.org/ontology/wikiPageID>	"11898031"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Cari\u00F1ena_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-1.21667"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Somontano>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Bierzo_(DO)>	<https://w3id.org/winecatalogue#id>	"Bierzo"@en .
+<http://dbpedia.org/resource/Alicante_(DO)>	<http://dbpedia.org/property/wineProduced>	"147206"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Bullas_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"12083567"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Getariako_Txakolina>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Pla_de_Bages>	<http://dbpedia.org/property/year>	"1997"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/La_Mancha_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P. La Mancha"@en .
+<http://dbpedia.org/resource/Vinos_de_Madrid>	<http://dbpedia.org/property/name>	"Vinos de Madrid DOP"@en .
+<http://dbpedia.org/resource/Arribes_(wine)>	<http://dbpedia.org/property/wineProduced>	"697"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Bullas_(DO)>	<http://dbpedia.org/property/wineries>	"10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Tarragona_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"1.25"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/R\u00EDas_Baixas_(DO)>	<http://dbpedia.org/property/wineProduced>	"10000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Arlanza_(DO)>	<http://dbpedia.org/property/name>	"Arlanza DOP"@en .
+<http://dbpedia.org/resource/Txakoli_de_\u00C1lava>	<http://dbpedia.org/property/year>	"2002"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Priorat_(DOQ)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"0.816667"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Pened\u00E8s_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"25717917"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ucl\u00E9s_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"39.9833"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/La_Gomera_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"22439972"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Utiel-Requena>	<http://dbpedia.org/property/wineProduced>	"327842"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Calatayud_(DO)>	<https://w3id.org/winecatalogue#id>	"Calatayud"@en .
+<http://dbpedia.org/resource/Somontano>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"42.0361"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Arlanza_(DO)>	<http://dbpedia.org/property/wineProduced>	"1351"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Pla_i_Llevant_(DO)>	<http://dbpedia.org/property/year>	"2001"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Condado_de_Huelva>	<http://dbpedia.org/ontology/wikiPageID>	"11003208"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Rueda_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-4.9571"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/La_Palma_(DO)>	<http://dbpedia.org/property/wineries>	"17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Cari\u00F1ena_(DO)>	<https://w3id.org/winecatalogue#id>	"Cari\u00F1ena"@en .
+<http://dbpedia.org/resource/Priorat_(DOQ)>	<http://dbpedia.org/property/wineries>	"109"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/R\u00EDas_Baixas_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/La_Mancha_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"11409727"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Rueda_(DO)>	<http://dbpedia.org/property/officialName>	"D.O. Rueda"@en .
+<http://dbpedia.org/resource/Manzanilla_(wine)>	<http://dbpedia.org/ontology/wikiPageID>	"1076502"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Bizkaiko_Txakolina>	<http://dbpedia.org/property/name>	"Bizkaiko Txakolina-Txakoli de Bizkaia-Chacol\u00ED de Bizkaia DOP"@en .
+<http://dbpedia.org/resource/La_Mancha_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"39.4056"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/La_Mancha_(DO)>	<http://dbpedia.org/property/wineries>	"247"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Arribes_(wine)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-6.38333"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Valencia_(DO)>	<http://dbpedia.org/property/wineProduced>	"327842"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Bizkaiko_Txakolina>	<http://dbpedia.org/property/wineProduced>	"18062"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ribera_del_Guadiana>	<http://dbpedia.org/property/year>	"1999"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ribeiro_(DO)>	<http://dbpedia.org/property/name>	"Ribeiro DOP"@en .
+<http://dbpedia.org/resource/Ribera_del_J\u00FAcar>	<http://dbpedia.org/property/wineProduced>	"5426"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Tierra_del_Vino_de_Zamora_DO>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-5.75556"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/El_Hierro_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P. El Hierro"@en .
+<http://dbpedia.org/resource/M\u00E1laga_and_Sierras_de_M\u00E1laga>	<http://dbpedia.org/property/wineProduced>	"11602"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ribeira_Sacra_(DO)>	<https://w3id.org/winecatalogue#id>	"Ribeira Sacra"@en .
+<http://dbpedia.org/resource/Ribera_del_Guadiana>	<http://dbpedia.org/property/wineProduced>	"73795"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ucl\u00E9s_(DO)>	<http://dbpedia.org/property/year>	"2003"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Cigales_(wine)>	<http://dbpedia.org/property/officialName>	"D.O. Cigales"@en .
+<http://dbpedia.org/resource/Manzanilla_(wine)>	<http://dbpedia.org/property/name>	"Manzanilla-Sanl\u00FAcar de Barrameda DOP"@en .
+<http://dbpedia.org/resource/Valdepe\u00F1as_(DO)>	<https://w3id.org/winecatalogue#id>	"Valdepe\u00F1as"@en .
+<http://dbpedia.org/resource/Valencia_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-0.375"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Ribera_del_J\u00FAcar>	<http://dbpedia.org/property/year>	"2003"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Montsant_DO>	<http://dbpedia.org/property/year>	"2002"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Somontano>	<https://w3id.org/winecatalogue#id>	"Somontano"@en .
+<http://dbpedia.org/resource/Valle_de_G\u00FC\u00EDmar>	<http://dbpedia.org/property/year>	"1996"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Arlanza_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P. Arlanza"@en .
+<http://dbpedia.org/resource/Granada_(wine)>	<http://dbpedia.org/property/year>	"2018"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Lanzarote_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"22491479"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Empord\u00E0_(DO)>	<http://dbpedia.org/property/wineries>	"43"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Terra_Alta_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"0.433333"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Toro_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"11355167"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Tarragona_(DO)>	<https://w3id.org/winecatalogue#id>	"Tarragona"@en .
+<http://dbpedia.org/resource/Alicante_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-0.274656"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Getariako_Txakolina>	<http://dbpedia.org/property/year>	"1990"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Arlanza_(DO)>	<http://dbpedia.org/property/year>	"2007"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Lanzarote_(DO)>	<https://w3id.org/winecatalogue#id>	"Lanzarote"@en .
+<http://dbpedia.org/resource/Cari\u00F1ena_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"11356137"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/La_Palma_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"22491192"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Almansa_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P. Almansa"@en .
+<http://dbpedia.org/resource/Cari\u00F1ena_(DO)>	<http://dbpedia.org/property/name>	"Cari\u00F1ena DOP"@en .
+<http://dbpedia.org/resource/Conca_de_Barber\u00E0_(DO)>	<http://dbpedia.org/property/officialName>	"Denominaci\u00F3 d'Origen Protegida Conca de Barber\u00E0"@en .
+<http://dbpedia.org/resource/Bierzo_(DO)>	<http://dbpedia.org/property/year>	"1989"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Tarragona_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P. Tarragona"@en .
+<http://dbpedia.org/resource/Costers_del_Segre>	<http://dbpedia.org/ontology/wikiPageID>	"11784090"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ycoden-Daute-Isora>	<http://dbpedia.org/property/name>	"Ycoden-Daute-Isora DOP"@en .
+<http://dbpedia.org/resource/Ucl\u00E9s_(DO)>	<http://dbpedia.org/property/wineProduced>	"32564"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Utiel-Requena>	<https://w3id.org/winecatalogue#id>	"Utiel - Requena"@en .
+<http://dbpedia.org/resource/Ribera_del_J\u00FAcar>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Catalunya_(DO)>	<http://dbpedia.org/property/year>	"2001"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/R\u00EDas_Baixas_(DO)>	<https://w3id.org/winecatalogue#id>	"R\u00EDas Baixas"@en .
+<http://dbpedia.org/resource/Bierzo_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"11270623"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Pened\u00E8s_(DO)>	<http://dbpedia.org/property/wineries>	"138"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Empord\u00E0_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P. Empord\u00E0"@en .
+<http://dbpedia.org/resource/Ribera_del_Guadiana>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Montsant_DO>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Cari\u00F1ena_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"41.3333"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/R\u00EDas_Baixas_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"12067614"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Lanzarote_(DO)>	<http://dbpedia.org/property/wineries>	"19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Manzanilla_(wine)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Jumilla_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-1.31667"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Somontano>	<http://dbpedia.org/property/year>	"1984"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Lanzarote_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"29.0017"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Cigales_(wine)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-4.7"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Utiel-Requena>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-1.18103"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Cari\u00F1ena_(DO)>	<http://dbpedia.org/property/wineProduced>	"642055"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ucl\u00E9s_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-2.85"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Jumilla_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Toro_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-5.39111"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Arlanza_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-3.75889"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Valdepe\u00F1as_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-3.4"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Alicante_(DO)>	<https://w3id.org/winecatalogue#id>	"Alicante"@en .
+<http://dbpedia.org/resource/Vinos_de_Madrid>	<http://dbpedia.org/property/wineProduced>	"28487"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Utiel-Requena>	<http://dbpedia.org/property/year>	"1932"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Tierra_del_Vino_de_Zamora_DO>	<http://dbpedia.org/property/officialName>	"C.R.D.O. Tierra del Vino de Zamora"@en .
+<http://dbpedia.org/resource/Ycoden-Daute-Isora>	<http://dbpedia.org/property/year>	"1994"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/M\u00E9ntrida_DO>	<http://dbpedia.org/property/wineries>	"26"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Priorat_(DOQ)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"41.1333"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Bizkaiko_Txakolina>	<http://dbpedia.org/property/wineries>	"36"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Arribes_(wine)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Cigales_(wine)>	<https://w3id.org/winecatalogue#id>	"Cigales"@en .
+<http://dbpedia.org/resource/Jumilla_(DO)>	<http://dbpedia.org/property/wineProduced>	"102637"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Alicante_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"38.7369"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Priorat_(DOQ)>	<http://dbpedia.org/property/year>	"2006"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Lanzarote_(DO)>	<http://dbpedia.org/property/wineProduced>	"4330"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Rueda_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"41.4141"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Bierzo_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Alicante_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Ucl\u00E9s_(DO)>	<http://dbpedia.org/property/name>	"Ucl\u00E9s DO"@en .
+<http://dbpedia.org/resource/Jumilla_(DO)>	<http://dbpedia.org/property/name>	"Jumilla DOP"@en .
+<http://dbpedia.org/resource/Toro_(DO)>	<http://dbpedia.org/property/wineProduced>	"33513"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Tacoronte-Acentejo>	<http://dbpedia.org/ontology/wikiPageID>	"14227564"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Bierzo_(DO)>	<http://dbpedia.org/property/wineProduced>	"40729"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Montsant_DO>	<http://dbpedia.org/property/officialName>	"Denominaci\u00F3 d'Origen Montsant"@en .
+<http://dbpedia.org/resource/R\u00EDas_Baixas_(DO)>	<http://dbpedia.org/property/year>	"1988"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Tierra_del_Vino_de_Zamora_DO>	<http://dbpedia.org/property/wineries>	"9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Manchuela_DO>	<http://dbpedia.org/property/wineries>	"37"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Txakoli_de_\u00C1lava>	<http://dbpedia.org/property/wineries>	"6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/M\u00E1laga_and_Sierras_de_M\u00E1laga>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-4.42"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Navarra_(DO)>	<http://dbpedia.org/property/wineries>	"87"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Calatayud_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"11171745"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ribeiro_(DO)>	<http://dbpedia.org/property/officialName>	"C.R.D.O. Ribeiro"@en .
+<http://dbpedia.org/resource/Granada_(wine)>	<http://dbpedia.org/ontology/wikiPageID>	"42973035"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/La_Mancha_(DO)>	<http://dbpedia.org/property/name>	"La Mancha DOP"@en .
+<http://dbpedia.org/resource/Conca_de_Barber\u00E0_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/M\u00E9ntrida_DO>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-4.2"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Pla_i_Llevant_(DO)>	<http://dbpedia.org/property/wineries>	"13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Campo_de_Borja_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"41.8167"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/El_Hierro_(DO)>	<http://dbpedia.org/property/year>	"1995"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Mond\u00E9jar_(DO)>	<https://w3id.org/winecatalogue#id>	"Mond\u00E9jar"@en .
+<http://dbpedia.org/resource/Ribeira_Sacra_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-7.51611"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Ycoden-Daute-Isora>	<http://dbpedia.org/property/officialName>	"D.O.P. Ycoden-Daute-Isora"@en .
+<http://dbpedia.org/resource/Toro_(DO)>	<https://w3id.org/winecatalogue#id>	"Toro"@en .
+<http://dbpedia.org/resource/Pla_de_Bages>	<http://dbpedia.org/property/wineries>	"16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ribeira_Sacra_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"42.5164"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Cigales_(wine)>	<http://dbpedia.org/ontology/wikiPageID>	"11342070"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Jumilla_(DO)>	<http://dbpedia.org/property/year>	"1966"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Pla_de_Bages>	<http://dbpedia.org/property/name>	"Pla de Bages DOP"@en .
+<http://dbpedia.org/resource/Getariako_Txakolina>	<http://dbpedia.org/property/officialName>	"D.O.P. Getariako Txakolina-Txakoli de Getaria. Chacol\u00ED de Getaria"@en .
+<http://dbpedia.org/resource/Mond\u00E9jar_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"40.3239"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Somontano>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"0.126389"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Tacoronte-Acentejo>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"28.4797"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Cari\u00F1ena_(DO)>	<http://dbpedia.org/property/wineries>	"32"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Navarra_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Somontano>	<http://dbpedia.org/property/name>	"Somontano DOP"@en .
+<http://dbpedia.org/resource/Campo_de_Borja_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"11271347"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Alicante_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"11882604"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ribera_del_Guadiana>	<http://dbpedia.org/property/officialName>	"D.O. Ribera del Guadiana"@en .
+<http://dbpedia.org/resource/Alella_(DO)>	<https://w3id.org/winecatalogue#id>	"Alella"@en .
+<http://dbpedia.org/resource/Arlanza_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"42.0264"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Terra_Alta_(DO)>	<http://dbpedia.org/property/wineProduced>	"55586"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Montilla-Moriles>	<http://dbpedia.org/property/wineries>	"41"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Toro_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Manzanilla_(wine)>	<http://dbpedia.org/property/wineProduced>	"384350"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Calatayud_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-0.883333"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Costers_del_Segre>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Manzanilla_(wine)>	<http://dbpedia.org/property/year>	"1964"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Manchuela_DO>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Granada_(wine)>	<http://dbpedia.org/property/wineries>	"17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Cigales_(wine)>	<http://dbpedia.org/property/wineProduced>	"38358"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ribeiro_(DO)>	<http://dbpedia.org/property/wineries>	"40"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/M\u00E1laga_and_Sierras_de_M\u00E1laga>	<http://dbpedia.org/property/name>	"Sierras de M\u00E1laga DOP"@en .
+<http://dbpedia.org/resource/Toro_(DO)>	<http://dbpedia.org/property/officialName>	"D.O. Toro"@en .
+<http://dbpedia.org/resource/Ribeira_Sacra_(DO)>	<http://dbpedia.org/property/year>	"1996"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Alella_(DO)>	<http://dbpedia.org/property/name>	"Alella DO"@en .
+<http://dbpedia.org/resource/Arribes_(wine)>	<http://dbpedia.org/property/wineries>	"17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Costers_del_Segre>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"0.573056"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Valle_de_G\u00FC\u00EDmar>	<http://dbpedia.org/property/wineries>	"12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ycoden-Daute-Isora>	<http://dbpedia.org/ontology/wikiPageID>	"22436937"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Calatayud_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Alicante_(DO)>	<http://dbpedia.org/property/name>	"Alicante DOP"@en .
+<http://dbpedia.org/resource/Valle_de_la_Orotava>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-16.5253"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Valencia_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P. Valencia"@en .
+<http://dbpedia.org/resource/Jumilla_(DO)>	<https://w3id.org/winecatalogue#id>	"Jumilla"@en .
+<http://dbpedia.org/resource/Valencia_(DO)>	<http://dbpedia.org/property/wineries>	"106"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Granada_(wine)>	<http://dbpedia.org/property/officialName>	"D.O.P. Granada"@en .
+<http://dbpedia.org/resource/Empord\u00E0_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"11648282"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Terra_Alta_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Valle_de_G\u00FC\u00EDmar>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Pla_de_Bages>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"1.83972"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Ribera_del_Guadiana>	<http://dbpedia.org/property/name>	"Ribera del Guadiana DO"@en .
+<http://dbpedia.org/resource/Abona_(DO)>	<http://dbpedia.org/property/name>	"Abona DOP"@en .
+<http://dbpedia.org/resource/M\u00E1laga_and_Sierras_de_M\u00E1laga>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"36.7194"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Almansa_(DO)>	<http://dbpedia.org/property/wineries>	"12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Bizkaiko_Txakolina>	<http://dbpedia.org/ontology/wikiPageID>	"22418961"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Alella_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Ucl\u00E9s_(DO)>	<http://dbpedia.org/property/wineries>	"5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Conca_de_Barber\u00E0_(DO)>	<http://dbpedia.org/property/wineProduced>	"6172"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ucl\u00E9s_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Alella_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"2.29583"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Pened\u00E8s_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P. Pened\u00E8s"@en .
+<http://dbpedia.org/resource/Manchuela_DO>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"39.3667"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Costers_del_Segre>	<http://dbpedia.org/property/wineProduced>	"29803"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Valdepe\u00F1as_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Ycoden-Daute-Isora>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-16.6556"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Montilla-Moriles>	<http://dbpedia.org/property/name>	"Montilla - Moriles DOP"@en .
+<http://dbpedia.org/resource/Tarragona_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Navarra_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"1.65056"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Jumilla_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"11664391"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ycoden-Daute-Isora>	<http://dbpedia.org/property/wineries>	"11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/El_Hierro_(DO)>	<http://dbpedia.org/property/name>	"El Hierro DOP"@en .
+<http://dbpedia.org/resource/Ycoden-Daute-Isora>	<http://dbpedia.org/property/wineProduced>	"1170"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/La_Mancha_(DO)>	<http://dbpedia.org/property/wineProduced>	"642076"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Bullas_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Montilla-Moriles>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"37.5854"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Pla_i_Llevant_(DO)>	<https://w3id.org/winecatalogue#id>	"Pla i Llevant"@en .
+<http://dbpedia.org/resource/Almansa_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"38.85"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Txakoli_de_\u00C1lava>	<http://dbpedia.org/property/officialName>	"D.O.P. Arabako Txakolina-Txakol\u00ED de \u00C1lava-Chacol\u00ED de \u00C1lava"@en .
+<http://dbpedia.org/resource/Conca_de_Barber\u00E0_(DO)>	<https://w3id.org/winecatalogue#id>	"Conca de Barber\u00E0"@en .
+<http://dbpedia.org/resource/Valencia_(DO)>	<http://dbpedia.org/property/year>	"1932"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Montilla-Moriles>	<http://dbpedia.org/property/year>	"1932"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Calatayud_(DO)>	<http://dbpedia.org/property/wineries>	"15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ycoden-Daute-Isora>	<https://w3id.org/winecatalogue#id>	"Ycoden-Daute-Isora"@en .
+<http://dbpedia.org/resource/Priorat_(DOQ)>	<https://w3id.org/winecatalogue#id>	"Priorat"@en .
+<http://dbpedia.org/resource/La_Palma_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Ribera_del_J\u00FAcar>	<http://dbpedia.org/property/name>	"Ribera del J\u00FAcar DOP"@en .
+<http://dbpedia.org/resource/Lanzarote_(DO)>	<http://dbpedia.org/property/name>	"Lanzarote DOP"@en .
+<http://dbpedia.org/resource/Montilla-Moriles>	<http://dbpedia.org/property/officialName>	"D.O.P Montilla - Moriles"@en .
+<http://dbpedia.org/resource/Tacoronte-Acentejo>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-16.4133"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Valencia_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"11975579"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Pla_i_Llevant_(DO)>	<http://dbpedia.org/property/wineProduced>	"15189"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Tarragona_(DO)>	<http://dbpedia.org/property/wineProduced>	"13200"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ribera_del_Guadiana>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"38.6833"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Valle_de_G\u00FC\u00EDmar>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-16.4131"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/M\u00E1laga_and_Sierras_de_M\u00E1laga>	<https://w3id.org/winecatalogue#id>	"M\u00E1laga"@en .
+<http://dbpedia.org/resource/Terra_Alta_(DO)>	<http://dbpedia.org/property/wineries>	"62"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Pla_i_Llevant_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P. Pla i Llevant"@en .
+<http://dbpedia.org/resource/Montsant_DO>	<http://dbpedia.org/property/wineProduced>	"45549"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Campo_de_Borja_(DO)>	<http://dbpedia.org/property/year>	"1977"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Manchuela_DO>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"-1.7"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Bizkaiko_Txakolina>	<https://w3id.org/winecatalogue#id>	"Bizkaiko Txakolina-Txakoli de Bizkaia-Chacol\u00ED de Bizkaia"@en .
+<http://dbpedia.org/resource/La_Palma_(DO)>	<http://dbpedia.org/property/wineProduced>	"2981"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/La_Mancha_(DO)>	<http://dbpedia.org/property/year>	"1932"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Rueda_(DO)>	<https://w3id.org/winecatalogue#id>	"Rueda"@en .
+<http://dbpedia.org/resource/Cigales_(wine)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"41.7667"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/R\u00EDas_Baixas_(DO)>	<http://dbpedia.org/property/officialName>	"R\u00EDas Baixas"@en .
+<http://dbpedia.org/resource/Empord\u00E0_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Abona_(DO)>	<https://w3id.org/winecatalogue#id>	"Abona"@en .
+<http://dbpedia.org/resource/Condado_de_Huelva>	<http://dbpedia.org/property/name>	"Condado de Huelva DOP"@en .
+<http://dbpedia.org/resource/Granada_(wine)>	<http://dbpedia.org/property/wineProduced>	"4289"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Arribes_(wine)>	<http://dbpedia.org/property/officialName>	"D.O. Arribes"@en .
+<http://dbpedia.org/resource/Condado_de_Huelva>	<http://dbpedia.org/property/year>	"1963"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/M\u00E9ntrida_DO>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"40.05"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Alicante_(DO)>	<http://dbpedia.org/property/wineries>	"39"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Campo_de_Borja_(DO)>	<https://w3id.org/winecatalogue#id>	"Campo de Borja"@en .
+<http://dbpedia.org/resource/Bullas_(DO)>	<http://dbpedia.org/property/year>	"2007"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Condado_de_Huelva>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"1.65056"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/La_Mancha_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Granada_(wine)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"37.1833"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Abona_(DO)>	<http://dbpedia.org/property/wineProduced>	"5608"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Valle_de_G\u00FC\u00EDmar>	<http://dbpedia.org/ontology/wikiPageID>	"22420064"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Almansa_(DO)>	<http://dbpedia.org/property/wineProduced>	"39841"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Conca_de_Barber\u00E0_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	"1.16389"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Txakoli_de_\u00C1lava>	<http://dbpedia.org/property/wineProduced>	"4592"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Almansa_(DO)>	<https://w3id.org/winecatalogue#id>	"Almansa"@en .
+<http://dbpedia.org/resource/Mond\u00E9jar_(DO)>	<http://dbpedia.org/property/year>	"1996"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Pened\u00E8s_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"41.2933"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Ribera_del_J\u00FAcar>	<https://w3id.org/winecatalogue#id>	"Ribera del J\u00FAcar"@en .
+<http://dbpedia.org/resource/Almansa_(DO)>	<http://dbpedia.org/property/name>	"Almansa DOP"@en .
+<http://dbpedia.org/resource/Bierzo_(DO)>	<http://dbpedia.org/property/officialName>	"C.R.D.O. Bierzo"@en .
+<http://dbpedia.org/resource/Vinos_de_Madrid>	<http://dbpedia.org/property/year>	"2003"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Manzanilla_(wine)>	<http://dbpedia.org/property/wineries>	"12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Toro_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"41.5256"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Condado_de_Huelva>	<http://dbpedia.org/property/wineries>	"21"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Montilla-Moriles>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/M\u00E9ntrida_DO>	<http://dbpedia.org/property/year>	"1976"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Txakoli_de_\u00C1lava>	<http://dbpedia.org/ontology/wikiPageID>	"19386696"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Txakoli_de_\u00C1lava>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/Catalunya_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"41.8167"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Tarragona_(DO)>	<http://dbpedia.org/property/year>	"1945"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/M\u00E9ntrida_DO>	<http://dbpedia.org/ontology/wikiPageID>	"11606932"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Mond\u00E9jar_(DO)>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Wine_regions_of_Spain> .
+<http://dbpedia.org/resource/R\u00EDas_Baixas_(DO)>	<http://dbpedia.org/property/wineries>	"180"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Navarra_(DO)>	<http://dbpedia.org/property/wineProduced>	"511437"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/M\u00E9ntrida_DO>	<http://dbpedia.org/property/name>	"M\u00E9ntrida DOP"@en .
+<http://dbpedia.org/resource/Manchuela_DO>	<https://w3id.org/winecatalogue#id>	"Manchuela"@en .
+<http://dbpedia.org/resource/Utiel-Requena>	<http://dbpedia.org/property/wineries>	"59"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Somontano>	<http://dbpedia.org/property/officialName>	"D.O.P Somontano"@en .
+<http://dbpedia.org/resource/Toro_(DO)>	<http://dbpedia.org/property/year>	"1987"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Navarra_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P. Navarra"@en .
+<http://dbpedia.org/resource/Terra_Alta_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P. Terra Alta"@en .
+<http://dbpedia.org/resource/Rueda_(DO)>	<http://dbpedia.org/property/wineProduced>	"678889"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Empord\u00E0_(DO)>	<http://dbpedia.org/property/year>	"1972"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/El_Hierro_(DO)>	<http://dbpedia.org/property/wineries>	"9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Lanzarote_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P. Lanzarote"@en .
+<http://dbpedia.org/resource/Valle_de_la_Orotava>	<http://dbpedia.org/property/wineProduced>	"2140"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Vinos_de_Madrid>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"40.2847"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Terra_Alta_(DO)>	<http://dbpedia.org/property/year>	"1972"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/M\u00E1laga_and_Sierras_de_M\u00E1laga>	<https://w3id.org/winecatalogue#id>	"Sierras de M\u00E1laga"@en .
+<http://dbpedia.org/resource/Calatayud_(DO)>	<http://dbpedia.org/property/officialName>	"D.O.P Calatayud"@en .
+<http://dbpedia.org/resource/Montsant_DO>	<http://dbpedia.org/ontology/wikiPageID>	"28995914"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Bierzo_(DO)>	<http://dbpedia.org/property/name>	"Bierzo DOP"@en .
+<http://dbpedia.org/resource/Conca_de_Barber\u00E0_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"41.3772"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Conca_de_Barber\u00E0_(DO)>	<http://dbpedia.org/ontology/wikiPageID>	"11730911"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Almansa_(DO)>	<http://dbpedia.org/property/year>	"1966"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Bullas_(DO)>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"38.05"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Bierzo_(DO)>	<http://dbpedia.org/property/wineries>	"70"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Arribes_(wine)>	<http://dbpedia.org/property/year>	"2005"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/La_Gomera_(DO)>	<http://dbpedia.org/property/wineProduced>	"469"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Valle_de_la_Orotava>	<http://dbpedia.org/property/year>	"1995"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/El_Hierro_(DO)>	<http://dbpedia.org/property/wineProduced>	"1735"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ribeiro_(DO)>	<http://dbpedia.org/property/year>	"1932"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Valle_de_G\u00FC\u00EDmar>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	"28.3106"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Tierra_del_Vino_de_Zamora_DO>	<https://w3id.org/winecatalogue#id>	"Tierra del Vino de Zamora"@en .
+<http://dbpedia.org/resource/Priorat_(DOQ)>	<http://dbpedia.org/ontology/wikiPageID>	"11830704"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Mond\u00E9jar_(DO)>	<http://dbpedia.org/property/wineries>	"2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Rueda_(DO)>	<http://dbpedia.org/property/name>	"Rueda DOP"@en .
+<http://dbpedia.org/resource/Costers_del_Segre>	<http://dbpedia.org/property/year>	"1988"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Ribeira_Sacra_(DO)>	<http://dbpedia.org/property/name>	"Ribeira Sacra DOP"@en .
+<http://dbpedia.org/resource/M\u00E9ntrida_DO>	<https://w3id.org/winecatalogue#id>	"M\u00E9ntrida"@en .
+<http://dbpedia.org/resource/Ucl\u00E9s_(DO)>	<http://dbpedia.org/property/officialName>	"D.O. Ucl\u00E9s"@en .
+<http://dbpedia.org/resource/Calatayud_(DO)>	<http://dbpedia.org/property/wineProduced>	"100452"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Priorat_(DOQ)>	<http://dbpedia.org/property/name>	"Priorat DOQ"@en .
