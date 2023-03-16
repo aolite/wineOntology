@@ -1,0 +1,2052 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/winecatalogue"
+     xml:base="https://w3id.org/winecatalogue"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dbc="http://dbpedia.org/resource/Category:"
+     xmlns:j.0="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:j.1="http://dbpedia.org/ontology/"
+     xmlns:j.2="https://w3id.org/winecatalogue#"
+     xmlns:j.3="http://dbpedia.org/property/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="https://www.dublincore.org/specifications/bibo/bibo/bibo.rdf.xml#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://w3id.org/winecatalogue">
+        <owl:versionIRI rdf:resource="https://w3id.org/winecatalogue/1.0.0"/>
+        <dc:abstract xml:lang="en">The domain of the ontology is framed around the classification of wines and their main characteristics. The scope of the ontology will be modelled on the characteristics of wine as well as the regions to which they belong.</dc:abstract>
+        <dc:description xml:lang="en">An ontology devoted to describe the spanish wine characteristics and prices.</dc:description>
+        <dc:title xml:lang="en">Wine Cataloguing Ontology</dc:title>
+        <owl:versionIRI xml:lang="en">https://w3id.org/winecatalogue/1.0.0</owl:versionIRI>
+        <owl:versionInfo xml:lang="en">Initial version of the ontology with the incorporation of the following datasets: 
+
+- https://www.kaggle.com/datasets/fedesoriano/spanish-wine-quality-dataset 
+
+- https://dbpedia.org/page/Category:Wine_regions_of_Spain
+
+- https://dbpedia.org/page/Category:Wineries_of_Spain</owl:versionInfo>
+        <bibo:status xml:lang="en">Draft</bibo:status>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/abstract -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#versionIRI -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionIRI"/>
+    
+
+
+    <!-- https://www.dublincore.org/specifications/bibo/bibo/bibo.rdf.xml#status -->
+
+    <owl:AnnotationProperty rdf:about="https://www.dublincore.org/specifications/bibo/bibo/bibo.rdf.xml#status"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/location -->
+
+    <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/location">
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Country"/>
+        <rdfs:comment xml:lang="en">An object property that represents the country of a wine</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">http://dbpedia.org/ontology/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://saref.etsi.org/core/unitOfMeasure -->
+
+    <owl:ObjectProperty rdf:about="https://saref.etsi.org/core/unitOfMeasure">
+        <rdfs:comment xml:lang="en">An object property that facilitate the specification of unit of measure for a Measurement</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://saref.etsi.org/core/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">unit of measure</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#hasPrice -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/winecatalogue#hasPrice">
+        <rdfs:comment xml:lang="en">An object property that identify a price for a specific wine.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">has price</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#hasRegion -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/winecatalogue#hasRegion">
+        <rdfs:comment xml:lang="en">An object property that permit to define a wine region for an specific wine</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">has region</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#hasWine -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/winecatalogue#hasWine">
+        <owl:inverseOf rdf:resource="https://w3id.org/winecatalogue#isWineOf"/>
+        <rdfs:domain rdf:resource="http://schema.org/Winery"/>
+        <rdfs:range rdf:resource="https://w3id.org/winecatalogue#Wine"/>
+        <rdfs:comment xml:lang="en">An object property that represents the Wines that a Winery have.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">has Wine</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">https://w3id.org/winecatalogue#isWineOf</rdfs:seeAlso>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#hasWineDescriptor -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/winecatalogue#hasWineDescriptor">
+        <rdfs:range rdf:resource="https://w3id.org/winecatalogue#WineDescriptor"/>
+        <rdfs:comment xml:lang="en">An object property that details the wine characterstics according to the flavour and body</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">has wine descriptor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#hasWineQuality -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/winecatalogue#hasWineQuality">
+        <rdfs:comment xml:lang="en">An object property that identifies wine quality to an specific wine</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">has wine quality</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#hasWineType -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/winecatalogue#hasWineType">
+        <rdfs:comment xml:lang="en">An object property that identifies the wine variety to an specific wine</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">has wine type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#isWineOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/winecatalogue#isWineOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:comment xml:lang="en">An object property that identifies the winery of an specific wine.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">is wine of</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">https://w3id.org/winecatalogue#hasWine</rdfs:seeAlso>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/wikiPageID -->
+
+    <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/wikiPageID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Internal Wiki Page ID for DBpedia</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">http://dbpedia.org/ontology/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wiki page ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://dbpedia.org/property/officialName -->
+
+    <owl:DatatypeProperty rdf:about="http://dbpedia.org/property/officialName">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">A data property that refers to the official name of an entity</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">http://dbpedia.org/property/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">official name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://dbpedia.org/property/year -->
+
+    <owl:DatatypeProperty rdf:about="http://dbpedia.org/property/year">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">A data property that permit to identify the year for an entity</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">http://dbpedia.org/property/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">year</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#lat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment xml:lang="en">A data property that permits to identofy the latiture according to the WGS84</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">http://www.w3.org/2003/01/geo/wgs84_pos#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">latitude</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#long -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment xml:lang="en">A data property that permit to identify a longitude according to WGS84</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">http://www.w3.org/2003/01/geo/wgs84_pos#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">longitude</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#acidity -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/winecatalogue#acidity">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">A data property that represents the acidity score, defined as wine&apos;s “pucker” or tartness; it&apos;s what makes a wine refreshing and your tongue salivate and want another sip [from 1-5]</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">acidity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#bodyScore -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/winecatalogue#bodyScore">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment xml:lang="en">A data property that represents the richness and weight of the wine in your mouth [from 1-5]</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">body score</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#hasName -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/winecatalogue#hasName">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Data property that represents the name of an entity.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">has name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#hasValue -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/winecatalogue#hasValue">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment xml:lang="en">A data property that refers the specific value for a measurement or currency</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">has value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#id -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/winecatalogue#id">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">A data property that permit to define an id for an entity</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#numReviews -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/winecatalogue#numReviews">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Number of users that reviewed the wine</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">number of reviews</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#rating -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/winecatalogue#rating">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">A data property that represents the average rating given to the wine by the users [from 1-5]</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">rating</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#wineProduced -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/winecatalogue#wineProduced">
+        <rdfs:comment xml:lang="en">A data property that reflects the quantity of wine produced in a region.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wine produced</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#wineries -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/winecatalogue#wineries">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">A data property to define the number of wineries for a region</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wineries</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/Country -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Country">
+        <rdfs:comment xml:lang="en">A country is a distinct part of the world, such as a state, nation, or other political entity. It may be a sovereign state or make up one part of a larger state</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">http://dbpedia.org/ontology/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Wine -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Wine">
+        <rdfs:comment xml:lang="en">Wine (from the Latin vinum) is a beverage made from grapes (Vitis vinifera species), through the alcoholic fermentation of their must or juice. Fermentation is produced by the metabolic action of yeasts, which transform the natural sugars of the fruit into ethanol and gas in the form of carbon dioxide. The sugar and acids in the fruit, Vitis vinifera, are sufficient for fermentation to take place. However, wine is a sum of environmental factors: climate, latitude, altitude, hours of light and temperature, among others. Approximately 66 % of the world&apos;s grape harvest is dedicated to wine production; the rest is for consumption as fruit. Despite this, vine cultivation covers only 0.5 % of the world&apos;s arable land.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">http://dbpedia.org/ontology/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Wine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Category:WineRegion -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Category:WineRegion">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://dbpedia.org/property/year"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/winecatalogue#hasName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Wine region means, within a single country: a state, province, territory or similar administrative or political subdivision; or a single delimited grape growing area; or a grape growing region or locality as defined in the exporting Party’s laws, regulations, or requirements.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">http://dbpedia.org/resource/Category:</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Wine Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Winery -->
+
+    <owl:Class rdf:about="http://schema.org/Winery">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/winecatalogue#hasWine"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/winecatalogue#Wine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://dbpedia.org/ontology/wikiPageID"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/winecatalogue#hasName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A place where wine is made, especially from grapes that are grown there.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">http://schema.org</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Winery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://saref.etsi.org/core/Currency -->
+
+    <owl:Class rdf:about="https://saref.etsi.org/core/Currency">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/core/UnitOfMeasure"/>
+        <rdfs:comment>The class of units of measure for price</rdfs:comment>
+        <rdfs:isDefinedBy>https://saref.etsi.org/core/</rdfs:isDefinedBy>
+        <rdfs:label>Currency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://saref.etsi.org/core/UnitOfMeasure -->
+
+    <owl:Class rdf:about="https://saref.etsi.org/core/UnitOfMeasure">
+        <rdfs:comment xml:lang="en">The unit of measure is a standard for measurement of a quantity, such as a Property. For example, Power is a property and Watt is a unit of power that represents a definite predetermined power: when we say 10 Watt, we actually mean 10 times the definite predetermined power called &quot;watt&quot;. Our definition is based on the definition of unit of measure in the Ontology of units of Measure (OM). We propose here a list of some units of measure that are relevant for the purpose of SAREF, but this list can be extended, also using some other ontologies rather than the Ontology of units of Measure (OM).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://saref.etsi.org/core/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Unit Of Measure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#Country -->
+
+    <owl:Class rdf:about="https://w3id.org/winecatalogue#Country">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Country"/>
+        <rdfs:comment xml:lang="en">An area of land that has its own government, army, etc</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#Good -->
+
+    <owl:Class rdf:about="https://w3id.org/winecatalogue#Good">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/winecatalogue#WineQuality"/>
+        <rdfs:comment xml:lang="en">A concept that refers to good wines</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Good</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#Poor -->
+
+    <owl:Class rdf:about="https://w3id.org/winecatalogue#Poor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/winecatalogue#WineQuality"/>
+        <rdfs:comment xml:lang="en">A concept that represnts fair wines</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Poor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#Price -->
+
+    <owl:Class rdf:about="https://w3id.org/winecatalogue#Price">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/core/unitOfMeasure"/>
+                <owl:allValuesFrom rdf:resource="https://saref.etsi.org/core/Currency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The quantity of one thing and especially money that is exchanged or demanded in exchange for another</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Price</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#RedWine -->
+
+    <owl:Class rdf:about="https://w3id.org/winecatalogue#RedWine">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/winecatalogue#WineColor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#RoseWine -->
+
+    <owl:Class rdf:about="https://w3id.org/winecatalogue#RoseWine">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/winecatalogue#WineColor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#VeryGood -->
+
+    <owl:Class rdf:about="https://w3id.org/winecatalogue#VeryGood">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/winecatalogue#WineQuality"/>
+        <rdfs:comment xml:lang="en">A concept that refers to an excelent wine</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Very Good</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#VeryPoor -->
+
+    <owl:Class rdf:about="https://w3id.org/winecatalogue#VeryPoor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/winecatalogue#WineQuality"/>
+        <rdfs:comment xml:lang="en">A concept that refers to a not desired wine quality</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Very Poor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#WhiteWine -->
+
+    <owl:Class rdf:about="https://w3id.org/winecatalogue#WhiteWine">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/winecatalogue#WineColor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#Wine -->
+
+    <owl:Class rdf:about="https://w3id.org/winecatalogue#Wine">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Wine"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/winecatalogue#hasWineType"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/winecatalogue#WineType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/winecatalogue#isWineOf"/>
+                <owl:allValuesFrom rdf:resource="http://schema.org/Winery"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/winecatalogue#hasPrice"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/winecatalogue#Price"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/winecatalogue#hasName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">An alcoholic drink that is usually made from grapes, but can also be made from other fruits or flowers. It is made by fermenting the fruit with water and sugar</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Wine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#WineBody -->
+
+    <owl:Class rdf:about="https://w3id.org/winecatalogue#WineBody">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/winecatalogue#WineTaste"/>
+        <rdfs:comment xml:lang="en">The Wine body refers to the richness and weight of the wine in your mouth. Other drinks have a body as well. Take milk, for example. It&apos;s not difficult to use fat levels to tell the difference between skim and whole milk.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Wine Body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#WineColor -->
+
+    <owl:Class rdf:about="https://w3id.org/winecatalogue#WineColor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/winecatalogue#WineDescriptor"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/winecatalogue#WineTaste"/>
+        <rdfs:comment xml:lang="en">The color of wine indicates age, grape variety, density of flavor, acidity and more</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Wine Color</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#WineDescriptor -->
+
+    <owl:Class rdf:about="https://w3id.org/winecatalogue#WineDescriptor">
+        <rdfs:comment xml:lang="en">The use of wine tasting descriptors allows the taster to qualitatively relate the aromas and flavors that the taster experiences and can be used in assessing the overall quality of wine</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Wine Descriptor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#WineFlavour -->
+
+    <owl:Class rdf:about="https://w3id.org/winecatalogue#WineFlavour">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/winecatalogue#WineTaste"/>
+        <rdfs:comment xml:lang="en">Flavor refers to the taste of a wine in your mouth. As well as reflecting the aromas absorbed retro-nasally, the overall flavor of a wine is also influenced by the wine’s acidity, sweetness, alcohol level, tannins, astringency, body and in sparkling wines by its fizziness, as these components can accentuate or neutralize the flavors.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Wine Flavour</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#WineQuality -->
+
+    <owl:Class rdf:about="https://w3id.org/winecatalogue#WineQuality">
+        <rdfs:comment xml:lang="en">Wine quality refers to the factors that go into producing a wine, as well as the indicators or characteristics that tell you if the wine is of high quality. When you know what influences and signifies wine quality, you&apos;ll be in a better position to make good purchases</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Wine Quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#WineSugar -->
+
+    <owl:Class rdf:about="https://w3id.org/winecatalogue#WineSugar">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/winecatalogue#WineTaste"/>
+        <rdfs:comment xml:lang="en">The sugars in wine grapes are what make winemaking possible. During the process of fermentation, sugars are broken down and converted by yeasts into ethanol alcohol and carbon dioxide. Grapes accumulate sugars as they grow on the grapevine through the translocation of sucrose molecules that are produced by photosynthesis from the leaves. During ripening the sucrose molecules are hydrolyzed (inverted) by the enzyme invertase into glucose and fructose. By the time of harvest, between 15-25% of the grape will be composed of simple sugars. Both glucose and fructose are six-carbon sugars but three, four, five and seven-carbon sugars are also present in the grape.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Wine Sugar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#WineTaste -->
+
+    <owl:Class rdf:about="https://w3id.org/winecatalogue#WineTaste">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/winecatalogue#WineDescriptor"/>
+        <rdfs:comment xml:lang="en">A concept that represents the flvour of teh wine.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Wine Taste</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#WineType -->
+
+    <owl:Class rdf:about="https://w3id.org/winecatalogue#WineType">
+        <rdfs:comment xml:lang="en">The wine type refers to the wine variety</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://w3id.org/winecatalogue#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Wine Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/resource/Bizkaiko_Txakolina -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Bizkaiko_Txakolina">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22418961</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Bizkaiko Txakolina-Txakoli de Bizkaia-Chacolí de Bizkaia</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</j.3:year>
+        <j.2:hasName>Bizkaiko Txakolina-Txakoli de Bizkaia-Chacolí de Bizkaia DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18062</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Condado_de_Huelva -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Condado_de_Huelva">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11003208</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Condado de Huelva</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1963</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">42.4811</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.65056</j.0:long>
+        <j.2:hasName>Condado de Huelva DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77431</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Costers_del_Segre -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Costers_del_Segre">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11784090</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Costers del Segre</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1988</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.6022</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.573056</j.0:long>
+        <j.2:hasName>Costers del Segre DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29803</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Getariako_Txakolina -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Getariako_Txakolina">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22418504</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Getariako Txakolina-Txakoli de Getaria. Chacolí de Getaria</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</j.3:year>
+        <j.2:hasName>Getariako Txakolina-Txakoli de Getaria. Chacolí de Getaria DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15143</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Manchuela_DO -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Manchuela_DO">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11465733</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Manchuela</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39.3667</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.7</j.0:long>
+        <j.2:hasName>Manchuela DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52003</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Montilla-Moriles -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Montilla-Moriles">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11100686</j.1:wikiPageID>
+        <j.3:officialName>D.O.P Montilla - Moriles</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1932</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">37.5854</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-4.6395</j.0:long>
+        <j.2:hasName>Montilla - Moriles DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">206960</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Montsant_DO -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Montsant_DO">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28995914</j.1:wikiPageID>
+        <j.3:officialName>Denominació d&apos;Origen Montsant</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.1469</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.821389</j.0:long>
+        <j.2:hasName>Montsant DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45549</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Málaga_and_Sierras_de_Málaga -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Málaga_and_Sierras_de_Málaga">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11136064</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Málaga</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1932</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">36.7194</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-4.42</j.0:long>
+        <j.2:hasName>Málaga DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11602</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Méntrida_DO -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Méntrida_DO">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11606932</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Méntrida</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1976</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.05</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-4.2</j.0:long>
+        <j.2:hasName>Méntrida DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31071</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Pla_de_Bages -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Pla_de_Bages">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11784976</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Pla de Bages</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.7206</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.83972</j.0:long>
+        <j.2:hasName>Pla de Bages DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3689</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ribera_del_Guadiana -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ribera_del_Guadiana">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11989429</j.1:wikiPageID>
+        <j.3:officialName>D.O. Ribera del Guadiana</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.6833</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-6.4</j.0:long>
+        <j.2:hasName>Ribera del Guadiana DO</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73795</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ribera_del_Júcar -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ribera_del_Júcar">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11644557</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Ribera del Júcar</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39.3667</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-2.2</j.0:long>
+        <j.2:hasName>Ribera del Júcar DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5426</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Somontano -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Somontano">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11002639</j.1:wikiPageID>
+        <j.3:officialName>D.O.P Somontano</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1984</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">42.0361</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.126389</j.0:long>
+        <j.2:hasName>Somontano DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">184449</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tacoronte-Acentejo -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Tacoronte-Acentejo">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14227564</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Tacoronte-Acentejo</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1992</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.4797</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-16.4133</j.0:long>
+        <j.2:hasName>Tacoronte-Acentejo DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6501</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tierra_del_Vino_de_Zamora_DO -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Tierra_del_Vino_de_Zamora_DO">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19357370</j.1:wikiPageID>
+        <j.3:officialName>C.R.D.O. Tierra del Vino de Zamora</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.4989</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-5.75556</j.0:long>
+        <j.2:hasName>Tierra del Vino de Zamora DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">803</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Txakoli_de_Álava -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Txakoli_de_Álava">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19386696</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Arabako Txakolina-Txakolí de Álava-Chacolí de Álava</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</j.3:year>
+        <j.2:hasName>Arabako Txakolina-Txakolí de Álava-Chacolí de Álava DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4592</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Utiel-Requena -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Utiel-Requena">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11898031</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Utiel - Requena</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1932</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39.5062</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.18103</j.0:long>
+        <j.2:hasName>Utiel - Requena DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">327842</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Valle_de_Güímar -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Valle_de_Güímar">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22420064</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Valle de Güímar</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.3106</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-16.4131</j.0:long>
+        <j.2:hasName>Valle de Güímar DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1449</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Valle_de_la_Orotava -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Valle_de_la_Orotava">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22420355</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Valle de la Orotava</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.3919</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-16.5253</j.0:long>
+        <j.2:hasName>Valle de la Orotava DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2140</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Vinos_de_Madrid -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Vinos_de_Madrid">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11607982</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Vinos de Madrid</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.2847</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-4.01361</j.0:long>
+        <j.2:hasName>Vinos de Madrid DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28487</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ycoden-Daute-Isora -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ycoden-Daute-Isora">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22436937</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Ycoden-Daute-Isora</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.3744</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-16.6556</j.0:long>
+        <j.2:hasName>Ycoden-Daute-Isora DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1170</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Abona_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Abona_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14228657</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Abona</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</j.3:year>
+        <j.2:hasName>Abona DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5608</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Alella_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Alella_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11665256</j.1:wikiPageID>
+        <j.3:officialName>Denominació d&apos;Origen Alella</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1953</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.4953</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.29583</j.0:long>
+        <j.2:hasName>Alella DO</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9350.0</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Alicante_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Alicante_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11882604</j.1:wikiPageID>
+        <j.3:officialName>D.O. Alicante</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1932</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.7369</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-0.274656</j.0:long>
+        <j.2:hasName>Alicante DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">147206</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Almansa_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Almansa_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11466715</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Almansa</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1966</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.85</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.08333</j.0:long>
+        <j.2:hasName>Almansa DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39841</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Arlanza_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Arlanza_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19357314</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Arlanza</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">42.0264</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-3.75889</j.0:long>
+        <j.2:hasName>Arlanza DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1351</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Arribes_(wine) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Arribes_(wine)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18381388</j.1:wikiPageID>
+        <j.3:officialName>D.O. Arribes</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.3236</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-6.38333</j.0:long>
+        <j.2:hasName>Arribes DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">697</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bierzo_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Bierzo_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11270623</j.1:wikiPageID>
+        <j.3:officialName>C.R.D.O. Bierzo</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1989</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">42.55</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-6.58333</j.0:long>
+        <j.2:hasName>Bierzo DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40729</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bullas_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Bullas_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12083567</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Bullas</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.05</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.67</j.0:long>
+        <j.2:hasName>Bullas DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17623</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Calatayud_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Calatayud_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11171745</j.1:wikiPageID>
+        <j.3:officialName>D.O.P Calatayud</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.65</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-0.883333</j.0:long>
+        <j.2:hasName>Calatayud DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100452</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Campo_de_Borja_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Campo_de_Borja_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11271347</j.1:wikiPageID>
+        <j.3:officialName>D.O.P Campo de Borja</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1977</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.8167</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.53333</j.0:long>
+        <j.2:hasName>Campo de Borja DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">248509</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cariñena_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cariñena_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11356137</j.1:wikiPageID>
+        <j.3:officialName>D.O.P Cariñena</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1932</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.3333</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.21667</j.0:long>
+        <j.2:hasName>Cariñena DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">642055</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Catalunya_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Catalunya_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11710601</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Catalunya</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.8167</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.46667</j.0:long>
+        <j.2:hasName>Catalunya DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">379736</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">226</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cigales_(wine) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cigales_(wine)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11342070</j.1:wikiPageID>
+        <j.3:officialName>D.O. Cigales</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.7667</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-4.7</j.0:long>
+        <j.2:hasName>Cigales DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38358</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Conca_de_Barberà_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Conca_de_Barberà_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11730911</j.1:wikiPageID>
+        <j.3:officialName>Denominació d&apos;Origen Protegida Conca de Barberà</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1989</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.3772</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.16389</j.0:long>
+        <j.2:hasName>Conca de Barberà DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6172</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/El_Hierro_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/El_Hierro_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22490571</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. El Hierro</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</j.3:year>
+        <j.2:hasName>El Hierro DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1735</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Empordà_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Empordà_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11648282</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Empordà</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1972</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">42.3883</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00119</j.0:long>
+        <j.2:hasName>Empordà DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35965</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Granada_(wine) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Granada_(wine)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42973035</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Granada</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">37.1833</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-3.60056</j.0:long>
+        <j.2:hasName>Granada DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4289</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Jumilla_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Jumilla_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11664391</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Jumilla</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1966</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.7833</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.31667</j.0:long>
+        <j.2:hasName>Jumilla DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102637</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/La_Gomera_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/La_Gomera_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22439972</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. La Gomera</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</j.3:year>
+        <j.2:hasName>La Gomera DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">469</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/La_Mancha_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/La_Mancha_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11409727</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. La Mancha</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1932</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39.4056</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-3.20556</j.0:long>
+        <j.2:hasName>La Mancha DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">642076</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">247</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/La_Palma_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/La_Palma_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22491192</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. La Palma</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</j.3:year>
+        <j.2:hasName>La Palma DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2981</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Lanzarote_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Lanzarote_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22491479</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Lanzarote</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">29.0017</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-13.6453</j.0:long>
+        <j.2:hasName>Lanzarote DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4330</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Manzanilla_(wine) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Manzanilla_(wine)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1076502</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Manzanilla-Sanlúcar de Barrameda</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1964</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">36.7736</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-6.35694</j.0:long>
+        <j.2:hasName>Manzanilla-Sanlúcar de Barrameda DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">384350</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mondéjar_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Mondéjar_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11627144</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Mondéjar</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.3239</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-3.10833</j.0:long>
+        <j.2:hasName>Mondéjar DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1519</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Navarra_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Navarra_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12083040</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Navarra</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1933</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">42.4811</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.65056</j.0:long>
+        <j.2:hasName>Navarra DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">511437</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Penedès_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Penedès_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25717917</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Penedès</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1932</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.2933</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.74957</j.0:long>
+        <j.2:hasName>Penedès DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">147157</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">138</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Pla_i_Llevant_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Pla_i_Llevant_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13925041</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Pla i Llevant</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39.4714</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.14344</j.0:long>
+        <j.2:hasName>Pla i Llevant DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15189</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Priorat_(DOQ) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Priorat_(DOQ)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11830704</j.1:wikiPageID>
+        <j.3:officialName>Denominació d&apos;Origen Qualificada Priorat / Denominació d&apos;Origen Protegida Priorat</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.1333</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.816667</j.0:long>
+        <j.2:hasName>Priorat DOQ</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14417</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ribeira_Sacra_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ribeira_Sacra_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12068829</j.1:wikiPageID>
+        <j.3:officialName>C.R.D.O. Ribeira Sacra</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">42.5164</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-7.51611</j.0:long>
+        <j.2:hasName>Ribeira Sacra DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35787</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ribeiro_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ribeiro_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12051338</j.1:wikiPageID>
+        <j.3:officialName>C.R.D.O. Ribeiro</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1932</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">42.2833</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-8.13333</j.0:long>
+        <j.2:hasName>Ribeiro DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35787</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Rueda_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Rueda_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11713545</j.1:wikiPageID>
+        <j.3:officialName>D.O. Rueda</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1980</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.4141</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-4.9571</j.0:long>
+        <j.2:hasName>Rueda DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">678889</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Rías_Baixas_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Rías_Baixas_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12067614</j.1:wikiPageID>
+        <j.3:officialName>Rías Baixas</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1988</j.3:year>
+        <j.2:hasName>Rías Baixas DO</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10000000</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tarragona_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Tarragona_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11831388</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Tarragona</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1945</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.1333</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.25</j.0:long>
+        <j.2:hasName>Tarragona DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13200</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Terra_Alta_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Terra_Alta_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11831910</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Terra Alta</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1972</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.05</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.433333</j.0:long>
+        <j.2:hasName>Terra Alta DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55586</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Toro_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Toro_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11355167</j.1:wikiPageID>
+        <j.3:officialName>D.O. Toro</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1987</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.5256</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-5.39111</j.0:long>
+        <j.2:hasName>Toro DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33513</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Uclés_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Uclés_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22454730</j.1:wikiPageID>
+        <j.3:officialName>D.O. Uclés</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39.9833</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-2.85</j.0:long>
+        <j.2:hasName>Uclés DO</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32564</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Valdepeñas_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Valdepeñas_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11645383</j.1:wikiPageID>
+        <j.3:officialName>D.O.P Valdepeñas</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1932</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.7667</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-3.4</j.0:long>
+        <j.2:hasName>Valdepeñas DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">616017</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Valencia_(DO) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Valencia_(DO)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Category:WineRegion"/>
+        <j.1:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11975579</j.1:wikiPageID>
+        <j.3:officialName>D.O.P. Valencia</j.3:officialName>
+        <j.3:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1932</j.3:year>
+        <j.0:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39.4667</j.0:lat>
+        <j.0:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-0.375</j.0:long>
+        <j.2:hasName>Valencia DOP</j.2:hasName>
+        <j.2:wineProduced rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">327842</j.2:wineProduced>
+        <j.2:wineries rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</j.2:wineries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#DeepAmber -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#DeepAmber">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WhiteWine"/>
+        <rdfs:label xml:lang="en">Deep Amber</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#DeepBrown -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#DeepBrown">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WhiteWine"/>
+        <rdfs:label xml:lang="en">DeepBrown</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#DeepCopper -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#DeepCopper">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RoseWine"/>
+        <rdfs:label xml:lang="en">Deep Copper</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#DeepGarnet -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#DeepGarnet">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RedWine"/>
+        <rdfs:label xml:lang="en">Deep Garnet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#DeepGold -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#DeepGold">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WhiteWine"/>
+        <rdfs:label xml:lang="en">Deep Gold</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#DeepPink -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#DeepPink">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RoseWine"/>
+        <rdfs:label xml:lang="en">Deep Pink</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#DeepPurple -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#DeepPurple">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RedWine"/>
+        <rdfs:label xml:lang="en">Deep Purple</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#DeepRuby -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#DeepRuby">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RedWine"/>
+        <rdfs:label xml:lang="en">Deep Ruby</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#DeepSalmon -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#DeepSalmon">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RoseWine"/>
+        <rdfs:label xml:lang="en">Deep Salmon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#DeepStraw -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#DeepStraw">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WhiteWine"/>
+        <rdfs:label xml:lang="en">Deep Straw</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#DeepTawny -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#DeepTawny">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RedWine"/>
+        <rdfs:label xml:lang="en">Deep Tawny</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#DeepYellow -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#DeepYellow">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WhiteWine"/>
+        <rdfs:label xml:lang="en">Deep Yellow</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#DryWine -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#DryWine">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WineSugar"/>
+        <rdfs:label xml:lang="en">dry wine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#LightFlavour -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#LightFlavour">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WineFlavour"/>
+        <rdfs:label xml:lang="en">light flavour</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#MediumBrown -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#MediumBrown">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WhiteWine"/>
+        <rdfs:label xml:lang="en">Medium Brown</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#MediumCopper -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#MediumCopper">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RoseWine"/>
+        <rdfs:label xml:lang="en">Medium Copper</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#MediumFlavour -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#MediumFlavour">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WineFlavour"/>
+        <rdfs:label xml:lang="en">medium flavour</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#MediumGold -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#MediumGold">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WhiteWine"/>
+        <rdfs:label xml:lang="en">Medium Gold</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#MediumPink -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#MediumPink">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RoseWine"/>
+        <rdfs:label xml:lang="en">Medium Pink</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#MediumPurple -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#MediumPurple">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RedWine"/>
+        <rdfs:label xml:lang="en">Medium Purple</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#MediumRuby -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#MediumRuby">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RedWine"/>
+        <rdfs:label xml:lang="en">Medium Ruby</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#MediumSalmon -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#MediumSalmon">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RoseWine"/>
+        <rdfs:label xml:lang="en">Medium Salmon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#MediumStraw -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#MediumStraw">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WhiteWine"/>
+        <rdfs:label xml:lang="en">Medium Straw</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#MediumTawny -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#MediumTawny">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RedWine"/>
+        <rdfs:label xml:lang="en">Medium tawny</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#MediumYellow -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#MediumYellow">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WhiteWine"/>
+        <rdfs:label xml:lang="en">Medium Yellow</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#Medium_Amber -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#Medium_Amber">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WhiteWine"/>
+        <rdfs:label xml:lang="en">Medium amber</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#Medium_Garnet -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#Medium_Garnet">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RedWine"/>
+        <rdfs:label xml:lang="en">Medium Garnet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#PaleAmber -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#PaleAmber">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WhiteWine"/>
+        <rdfs:label xml:lang="en">Pale Amber</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#PaleBrown -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#PaleBrown">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WhiteWine"/>
+        <rdfs:label xml:lang="en">Pale Brown</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#PaleCopper -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#PaleCopper">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RoseWine"/>
+        <rdfs:label xml:lang="en">Pale Copper</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#PaleGold -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#PaleGold">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WhiteWine"/>
+        <rdfs:label xml:lang="en">Pale Gold</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#PalePink -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#PalePink">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RoseWine"/>
+        <rdfs:label xml:lang="en">Pale Pink</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#PalePurple -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#PalePurple">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RedWine"/>
+        <rdfs:label xml:lang="en">Pale Purple</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#PaleRuby -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#PaleRuby">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RedWine"/>
+        <rdfs:label xml:lang="en">Pale Ruby</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#PaleSalmon -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#PaleSalmon">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RoseWine"/>
+        <rdfs:label xml:lang="en">Pale Salmon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#PaleStraw -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#PaleStraw">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WhiteWine"/>
+        <rdfs:label xml:lang="en">Pale Straw</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#PaleTawny -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#PaleTawny">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RedWine"/>
+        <rdfs:label xml:lang="en">Pale Tawny</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#PaleYellow -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#PaleYellow">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WhiteWine"/>
+        <rdfs:label xml:lang="en">Pale Yellow</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#Pale_Garnet -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#Pale_Garnet">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#RedWine"/>
+        <rdfs:label xml:lang="en">Pale Garnet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#SemiDry -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#SemiDry">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WineSugar"/>
+        <rdfs:label xml:lang="en">semi dry</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#StrongFlavour -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#StrongFlavour">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WineFlavour"/>
+        <rdfs:label xml:lang="en">strong flavour</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#Sweet -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#Sweet">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WineSugar"/>
+        <rdfs:label xml:lang="en">sweet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#acidTaste -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#acidTaste">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WineBody"/>
+        <rdfs:label xml:lang="en">acid taste</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#mediumTaste -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#mediumTaste">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WineBody"/>
+        <rdfs:label xml:lang="en">medium taste</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/winecatalogue#weakTaste -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/winecatalogue#weakTaste">
+        <rdf:type rdf:resource="https://w3id.org/winecatalogue#WineBody"/>
+        <rdfs:label xml:lang="en">weak taste</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/winecatalogue#Good"/>
+            <rdf:Description rdf:about="https://w3id.org/winecatalogue#Poor"/>
+            <rdf:Description rdf:about="https://w3id.org/winecatalogue#VeryGood"/>
+            <rdf:Description rdf:about="https://w3id.org/winecatalogue#VeryPoor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/winecatalogue#WineBody"/>
+            <rdf:Description rdf:about="https://w3id.org/winecatalogue#WineFlavour"/>
+            <rdf:Description rdf:about="https://w3id.org/winecatalogue#WineSugar"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

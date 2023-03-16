@@ -10,6 +10,11 @@ python = "^3.9"
 d2s = "^0.3.3"
 pyshacl = "^0.20.0"
 rdflib-jsonld = "^0.6.2"
+jupyter = "^1.0.0"
+pandas = "^1.5.3"
+dipper = "^0.2.32"
+rdflib = "^6.2.0"
+validators = "^0.20.0"
 
 
 [build-system]

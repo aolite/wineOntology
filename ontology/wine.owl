@@ -76,10 +76,19 @@
         <Class IRI="#Price"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#RedWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoseWine"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#VeryGood"/>
     </Declaration>
     <Declaration>
         <Class IRI="#VeryPoor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WhiteWine"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Wine"/>
@@ -178,6 +187,144 @@
         <DataProperty IRI="#wineries"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#DeepAmber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeepBrown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeepCopper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeepGarnet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeepGold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeepPink"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeepPurple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeepRuby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeepSalmon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeepStraw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeepTawny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeepYellow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DryWine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LightFlavour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediumBrown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediumCopper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediumFlavour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediumGold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediumPink"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediumPurple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediumRuby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediumSalmon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediumStraw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediumTawny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediumYellow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medium_Amber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medium_Garnet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PaleAmber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PaleBrown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PaleCopper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PaleGold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PalePink"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PalePurple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PaleRuby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PaleSalmon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PaleStraw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PaleTawny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PaleYellow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pale_Garnet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SemiDry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StrongFlavour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sweet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#acidTaste"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#euro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mediumTaste"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#weakTaste"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/abstract"/>
     </Declaration>
     <Declaration>
@@ -192,6 +339,41 @@
     <Declaration>
         <AnnotationProperty abbreviatedIRI="bibo:status"/>
     </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="dbc:WineRegion"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://dbpedia.org/property/year"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="dbc:WineRegion"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/Winery"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasWine"/>
+            <Class IRI="#Wine"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/Winery"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://dbpedia.org/ontology/wikiPageID"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/Winery"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="https://saref.etsi.org/core/Currency"/>
         <Class IRI="https://saref.etsi.org/core/UnitOfMeasure"/>
@@ -209,6 +391,21 @@
         <Class IRI="#WineQuality"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Price"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://saref.etsi.org/core/unitOfMeasure"/>
+            <Class IRI="https://saref.etsi.org/core/Currency"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedWine"/>
+        <Class IRI="#WineColor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoseWine"/>
+        <Class IRI="#WineColor"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#VeryGood"/>
         <Class IRI="#WineQuality"/>
     </SubClassOf>
@@ -217,8 +414,40 @@
         <Class IRI="#WineQuality"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#WhiteWine"/>
+        <Class IRI="#WineColor"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Wine"/>
         <Class IRI="http://dbpedia.org/ontology/Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wine"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasWineType"/>
+            <Class IRI="#WineType"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wine"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isWineOf"/>
+            <Class IRI="http://schema.org/Winery"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wine"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasPrice"/>
+            <Class IRI="#Price"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wine"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#WineBody"/>
@@ -251,6 +480,199 @@
         <Class IRI="#WineFlavour"/>
         <Class IRI="#WineSugar"/>
     </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#WineColor"/>
+        <Class IRI="#WineTaste"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#WhiteWine"/>
+        <NamedIndividual IRI="#DeepAmber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WhiteWine"/>
+        <NamedIndividual IRI="#DeepBrown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RoseWine"/>
+        <NamedIndividual IRI="#DeepCopper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RedWine"/>
+        <NamedIndividual IRI="#DeepGarnet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WhiteWine"/>
+        <NamedIndividual IRI="#DeepGold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RoseWine"/>
+        <NamedIndividual IRI="#DeepPink"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RedWine"/>
+        <NamedIndividual IRI="#DeepPurple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RedWine"/>
+        <NamedIndividual IRI="#DeepRuby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RoseWine"/>
+        <NamedIndividual IRI="#DeepSalmon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WhiteWine"/>
+        <NamedIndividual IRI="#DeepStraw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RedWine"/>
+        <NamedIndividual IRI="#DeepTawny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WhiteWine"/>
+        <NamedIndividual IRI="#DeepYellow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WineSugar"/>
+        <NamedIndividual IRI="#DryWine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WineFlavour"/>
+        <NamedIndividual IRI="#LightFlavour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WhiteWine"/>
+        <NamedIndividual IRI="#MediumBrown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RoseWine"/>
+        <NamedIndividual IRI="#MediumCopper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WineFlavour"/>
+        <NamedIndividual IRI="#MediumFlavour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WhiteWine"/>
+        <NamedIndividual IRI="#MediumGold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RoseWine"/>
+        <NamedIndividual IRI="#MediumPink"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RedWine"/>
+        <NamedIndividual IRI="#MediumPurple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RedWine"/>
+        <NamedIndividual IRI="#MediumRuby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RoseWine"/>
+        <NamedIndividual IRI="#MediumSalmon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WhiteWine"/>
+        <NamedIndividual IRI="#MediumStraw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RedWine"/>
+        <NamedIndividual IRI="#MediumTawny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WhiteWine"/>
+        <NamedIndividual IRI="#MediumYellow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WhiteWine"/>
+        <NamedIndividual IRI="#Medium_Amber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RedWine"/>
+        <NamedIndividual IRI="#Medium_Garnet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WhiteWine"/>
+        <NamedIndividual IRI="#PaleAmber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WhiteWine"/>
+        <NamedIndividual IRI="#PaleBrown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RoseWine"/>
+        <NamedIndividual IRI="#PaleCopper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WhiteWine"/>
+        <NamedIndividual IRI="#PaleGold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RoseWine"/>
+        <NamedIndividual IRI="#PalePink"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RedWine"/>
+        <NamedIndividual IRI="#PalePurple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RedWine"/>
+        <NamedIndividual IRI="#PaleRuby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RoseWine"/>
+        <NamedIndividual IRI="#PaleSalmon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WhiteWine"/>
+        <NamedIndividual IRI="#PaleStraw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RedWine"/>
+        <NamedIndividual IRI="#PaleTawny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WhiteWine"/>
+        <NamedIndividual IRI="#PaleYellow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RedWine"/>
+        <NamedIndividual IRI="#Pale_Garnet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WineSugar"/>
+        <NamedIndividual IRI="#SemiDry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WineFlavour"/>
+        <NamedIndividual IRI="#StrongFlavour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WineSugar"/>
+        <NamedIndividual IRI="#Sweet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WineBody"/>
+        <NamedIndividual IRI="#acidTaste"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://saref.etsi.org/core/Currency"/>
+        <NamedIndividual IRI="#euro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WineBody"/>
+        <NamedIndividual IRI="#mediumTaste"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WineBody"/>
+        <NamedIndividual IRI="#weakTaste"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#euro"/>
+        <Literal>Euro</Literal>
+    </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#isWineOf"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
@@ -305,6 +727,14 @@
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="http://dbpedia.org/property/officialName"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://dbpedia.org/property/officialName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="http://dbpedia.org/property/year"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
@@ -318,7 +748,15 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#acidity"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#bodyScore"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#hasName"/>
@@ -330,7 +768,7 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#id"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#numReviews"/>
@@ -338,11 +776,18 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#rating"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#wineProduced"/>
+        <DataUnionOf>
+            <Datatype abbreviatedIRI="xsd:float"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataUnionOf>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#wineries"/>
-        <Datatype abbreviatedIRI="xsd:double"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -555,6 +1000,71 @@
         <Literal xml:lang="en">Country</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeepAmber</IRI>
+        <Literal xml:lang="en">Deep Amber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeepBrown</IRI>
+        <Literal xml:lang="en">DeepBrown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeepCopper</IRI>
+        <Literal xml:lang="en">Deep Copper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeepGarnet</IRI>
+        <Literal xml:lang="en">Deep Garnet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeepGold</IRI>
+        <Literal xml:lang="en">Deep Gold</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeepPink</IRI>
+        <Literal xml:lang="en">Deep Pink</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeepPurple</IRI>
+        <Literal xml:lang="en">Deep Purple</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeepRuby</IRI>
+        <Literal xml:lang="en">Deep Ruby</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeepSalmon</IRI>
+        <Literal xml:lang="en">Deep Salmon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeepStraw</IRI>
+        <Literal xml:lang="en">Deep Straw</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeepTawny</IRI>
+        <Literal xml:lang="en">Deep Tawny</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeepYellow</IRI>
+        <Literal xml:lang="en">Deep Yellow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DryWine</IRI>
+        <Literal xml:lang="en">dry wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Good</IRI>
         <Literal xml:lang="en">A concept that refers to good wines</Literal>
@@ -568,6 +1078,136 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Good</IRI>
         <Literal xml:lang="en">Good</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LightFlavour</IRI>
+        <Literal xml:lang="en">light flavour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MediumBrown</IRI>
+        <Literal xml:lang="en">Medium Brown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MediumCopper</IRI>
+        <Literal xml:lang="en">Medium Copper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MediumFlavour</IRI>
+        <Literal xml:lang="en">medium flavour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MediumGold</IRI>
+        <Literal xml:lang="en">Medium Gold</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MediumPink</IRI>
+        <Literal xml:lang="en">Medium Pink</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MediumPurple</IRI>
+        <Literal xml:lang="en">Medium Purple</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MediumRuby</IRI>
+        <Literal xml:lang="en">Medium Ruby</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MediumSalmon</IRI>
+        <Literal xml:lang="en">Medium Salmon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MediumStraw</IRI>
+        <Literal xml:lang="en">Medium Straw</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MediumTawny</IRI>
+        <Literal xml:lang="en">Medium tawny</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MediumYellow</IRI>
+        <Literal xml:lang="en">Medium Yellow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Medium_Amber</IRI>
+        <Literal xml:lang="en">Medium amber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Medium_Garnet</IRI>
+        <Literal xml:lang="en">Medium Garnet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PaleAmber</IRI>
+        <Literal xml:lang="en">Pale Amber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PaleBrown</IRI>
+        <Literal xml:lang="en">Pale Brown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PaleCopper</IRI>
+        <Literal xml:lang="en">Pale Copper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PaleGold</IRI>
+        <Literal xml:lang="en">Pale Gold</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PalePink</IRI>
+        <Literal xml:lang="en">Pale Pink</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PalePurple</IRI>
+        <Literal xml:lang="en">Pale Purple</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PaleRuby</IRI>
+        <Literal xml:lang="en">Pale Ruby</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PaleSalmon</IRI>
+        <Literal xml:lang="en">Pale Salmon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PaleStraw</IRI>
+        <Literal xml:lang="en">Pale Straw</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PaleTawny</IRI>
+        <Literal xml:lang="en">Pale Tawny</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PaleYellow</IRI>
+        <Literal xml:lang="en">Pale Yellow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pale_Garnet</IRI>
+        <Literal xml:lang="en">Pale Garnet</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -598,6 +1238,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Price</IRI>
         <Literal xml:lang="en">Price</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SemiDry</IRI>
+        <Literal xml:lang="en">semi dry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StrongFlavour</IRI>
+        <Literal xml:lang="en">strong flavour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sweet</IRI>
+        <Literal xml:lang="en">sweet</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -763,6 +1418,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#WineType</IRI>
         <Literal xml:lang="en">Wine Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#acidTaste</IRI>
+        <Literal xml:lang="en">acid taste</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -955,6 +1615,11 @@
         <Literal xml:lang="en">https://w3id.org/winecatalogue#hasWine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mediumTaste</IRI>
+        <Literal xml:lang="en">medium taste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#numReviews</IRI>
         <Literal xml:lang="en">Number of users that reviewed the wine</Literal>
@@ -983,6 +1648,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#rating</IRI>
         <Literal xml:lang="en">rating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#weakTaste</IRI>
+        <Literal xml:lang="en">weak taste</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

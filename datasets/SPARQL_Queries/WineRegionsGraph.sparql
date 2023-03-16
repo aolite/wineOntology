@@ -1,3 +1,4 @@
+PREFIX wi: <http://purl.org/ontology/wi/core#>
 PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX db: <http://dbpedia.org/>
@@ -8,16 +9,17 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX wine: <https://w3id.org/winecatalogue#>
 CONSTRUCT {
-  ?wineRegion dct:subject dbc:Wine_regions_of_Spain ;
-  			  dbo:wikiPageID ?id ;
-       		  dbp:wineries ?num_wineries ;
-           	  dbp:wineProduced ?wine_produced ;
-              dbp:name ?wine_region_name ;
-              dbp:officialName ?wine_region_official_name ;
-  			  dbp:year ?wine_region_year .
-   ?wineRegion geo:lat ?wine_region_lat .
-   ?wineRegion geo:long ?wine_region_long .
-   ?wineRegion wine:id ?region_id .
+  ?wineRegion a dbc:WineRegion;
+    	dbo:wikiPageID ?id ;
+    	wine:wineries ?num_wineries ;
+        wine:wineProduced ?wine_produced ;
+        wine:name ?wine_region_name ;
+        dbp:officialName ?wine_region_official_name ;
+  		dbp:year ?wine_region_year .
+
+  ?wineRegion geo:lat ?wine_region_lat .
+  ?wineRegion geo:long ?wine_region_long .
+  ?wineRegion wine:id ?region_id.
 }
 WHERE {
   ?wineRegion dct:subject dbc:Wine_regions_of_Spain ;
