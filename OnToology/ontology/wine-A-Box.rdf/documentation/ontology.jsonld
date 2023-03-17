@@ -1,0 +1,3501 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dbpedia.org/property/year"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/winecatalogue#hasName"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/winecatalogue#Good"
+    }, {
+      "@id" : "https://w3id.org/winecatalogue#Poor"
+    }, {
+      "@id" : "https://w3id.org/winecatalogue#VeryGood"
+    }, {
+      "@id" : "https://w3id.org/winecatalogue#VeryPoor"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/winecatalogue#WineBody"
+    }, {
+      "@id" : "https://w3id.org/winecatalogue#WineFlavour"
+    }, {
+      "@id" : "https://w3id.org/winecatalogue#WineSugar"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/winecatalogue#hasName"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/winecatalogue#hasWine"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/winecatalogue#Wine"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://dbpedia.org/ontology/wikiPageID"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/winecatalogue#hasName"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://saref.etsi.org/core/Currency"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://saref.etsi.org/core/unitOfMeasure"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineType"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/winecatalogue#hasWineType"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://schema.org/Winery"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/winecatalogue#isWineOf"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/winecatalogue#Price"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/winecatalogue#hasPrice"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A country is a distinct part of the world, such as a state, nation, or other political entity. It may be a sovereign state or make up one part of a larger state"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/ontology/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Country"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Wine (from the Latin vinum) is a beverage made from grapes (Vitis vinifera species), through the alcoholic fermentation of their must or juice. Fermentation is produced by the metabolic action of yeasts, which transform the natural sugars of the fruit into ethanol and gas in the form of carbon dioxide. The sugar and acids in the fruit, Vitis vinifera, are sufficient for fermentation to take place. However, wine is a sum of environmental factors: climate, latitude, altitude, hours of light and temperature, among others. Approximately 66 % of the world's grape harvest is dedicated to wine production; the rest is for consumption as fruit. Despite this, vine cultivation covers only 0.5 % of the world's arable land."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/ontology/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wine"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that represents the country of a wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/ontology/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Country"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/wikiPageID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Internal Wiki Page ID for DBpedia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/ontology/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "wiki page ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/property/officialName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A data property that refers to the official name of an entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/property/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "official name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  }, {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/property/year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A data property that permit to identify the year for an entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/property/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "year"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Abona_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "14228657"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Abona"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1996"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Abona DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5608"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "19"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Alella_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11665256"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "Denominació d'Origen Alella"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1953"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "41.4953"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "2.29583"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Alella DO"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "9350.0"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Alicante_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11882604"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O. Alicante"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1932"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "38.7369"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-0.274656"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Alicante DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "147206"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "39"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Almansa_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11466715"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Almansa"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1966"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "38.85"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-1.08333"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Almansa DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "39841"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Arlanza_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "19357314"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Arlanza"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2007"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "42.0264"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-3.75889"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Arlanza DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1351"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "23"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Arribes_(wine)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "18381388"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O. Arribes"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2005"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "41.3236"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-6.38333"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Arribes DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "697"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "17"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Bierzo_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11270623"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "C.R.D.O. Bierzo"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1989"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "42.55"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-6.58333"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Bierzo DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "40729"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "70"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Bizkaiko_Txakolina",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "22418961"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Bizkaiko Txakolina-Txakoli de Bizkaia-Chacolí de Bizkaia"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1994"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Bizkaiko Txakolina-Txakoli de Bizkaia-Chacolí de Bizkaia DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "18062"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "36"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Bullas_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12083567"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Bullas"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2007"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "38.05"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-1.67"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Bullas DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "17623"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Calatayud_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11171745"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P Calatayud"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1990"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "41.65"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-0.883333"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Calatayud DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "100452"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "15"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Campo_de_Borja_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11271347"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P Campo de Borja"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1977"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "41.8167"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-1.53333"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Campo de Borja DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "248509"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "18"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Cariñena_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11356137"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P Cariñena"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1932"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "41.3333"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-1.21667"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Cariñena DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "642055"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "32"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Catalunya_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11710601"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Catalunya"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "41.8167"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "1.46667"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Catalunya DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "379736"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "226"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Category:WineRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Wine region means, within a single country: a state, province, territory or similar administrative or political subdivision; or a single delimited grape growing area; or a grape growing region or locality as defined in the exporting Party’s laws, regulations, or requirements."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Category:"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wine Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Cigales_(wine)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11342070"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O. Cigales"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1991"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "41.7667"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-4.7"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Cigales DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "38358"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "34"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Conca_de_Barberà_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11730911"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "Denominació d'Origen Protegida Conca de Barberà"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1989"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "41.3772"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "1.16389"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Conca de Barberà DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6172"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "26"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Condado_de_Huelva",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11003208"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Condado de Huelva"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1963"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "42.4811"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "1.65056"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Condado de Huelva DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "77431"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "21"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Costers_del_Segre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11784090"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Costers del Segre"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1988"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "41.6022"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "0.573056"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Costers del Segre DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "29803"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "36"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/El_Hierro_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "22490571"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. El Hierro"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1995"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "El Hierro DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1735"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Empordà_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11648282"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Empordà"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1972"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "42.3883"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "3.00119"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Empordà DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "35965"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "43"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Getariako_Txakolina",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "22418504"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Getariako Txakolina-Txakoli de Getaria. Chacolí de Getaria"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1990"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Getariako Txakolina-Txakoli de Getaria. Chacolí de Getaria DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "15143"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "31"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Granada_(wine)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "42973035"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Granada"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2018"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "37.1833"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-3.60056"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Granada DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4289"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "17"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Jumilla_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11664391"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Jumilla"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1966"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "38.7833"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-1.31667"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Jumilla DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "102637"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "45"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/La_Gomera_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "22439972"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. La Gomera"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2009"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "La Gomera DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "469"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "17"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/La_Mancha_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11409727"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. La Mancha"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1932"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "39.4056"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-3.20556"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "La Mancha DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "642076"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "247"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/La_Palma_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "22491192"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. La Palma"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1994"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "La Palma DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2981"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "17"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Lanzarote_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "22491479"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Lanzarote"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1994"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "29.0017"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-13.6453"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Lanzarote DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4330"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "19"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Manchuela_DO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11465733"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Manchuela"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2004"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "39.3667"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-1.7"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Manchuela DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "52003"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "37"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Manzanilla_(wine)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1076502"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Manzanilla-Sanlúcar de Barrameda"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1964"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "36.7736"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-6.35694"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Manzanilla-Sanlúcar de Barrameda DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "384350"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Mondéjar_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11627144"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Mondéjar"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1996"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "40.3239"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-3.10833"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Mondéjar DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1519"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Montilla-Moriles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11100686"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P Montilla - Moriles"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1932"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "37.5854"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-4.6395"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Montilla - Moriles DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "206960"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "41"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Montsant_DO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "28995914"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "Denominació d'Origen Montsant"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2002"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "41.1469"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "0.821389"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Montsant DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "45549"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "55"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Málaga_and_Sierras_de_Málaga",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11136064"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Málaga"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1932"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "36.7194"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-4.42"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Málaga DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11602"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "40"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Méntrida_DO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11606932"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Méntrida"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1976"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "40.05"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-4.2"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Méntrida DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "31071"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "26"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Navarra_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12083040"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Navarra"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1933"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "42.4811"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "1.65056"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Navarra DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "511437"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "87"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Penedès_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "25717917"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Penedès"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1932"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "41.2933"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "1.74957"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Penedès DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "147157"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "138"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Pla_de_Bages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11784976"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Pla de Bages"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1997"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "41.7206"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "1.83972"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Pla de Bages DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3689"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "16"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Pla_i_Llevant_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "13925041"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Pla i Llevant"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "39.4714"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "2.14344"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Pla i Llevant DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "15189"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "13"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Priorat_(DOQ)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11830704"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "Denominació d'Origen Qualificada Priorat / Denominació d'Origen Protegida Priorat"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2006"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "41.1333"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "0.816667"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Priorat DOQ"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "14417"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "109"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Ribeira_Sacra_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12068829"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "C.R.D.O. Ribeira Sacra"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1996"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "42.5164"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-7.51611"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Ribeira Sacra DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "35787"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "90"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Ribeiro_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12051338"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "C.R.D.O. Ribeiro"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1932"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "42.2833"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-8.13333"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Ribeiro DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "35787"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "40"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Ribera_del_Guadiana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11989429"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O. Ribera del Guadiana"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1999"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "38.6833"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-6.4"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Ribera del Guadiana DO"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "73795"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "26"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Ribera_del_Júcar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11644557"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Ribera del Júcar"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2003"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "39.3667"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-2.2"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Ribera del Júcar DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5426"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Rueda_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11713545"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O. Rueda"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1980"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "41.4141"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-4.9571"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Rueda DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "678889"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "68"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Rías_Baixas_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12067614"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "Rías Baixas"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1988"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Rías Baixas DO"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10000000"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "180"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Somontano",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11002639"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P Somontano"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1984"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "42.0361"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "0.126389"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Somontano DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "184449"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "31"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Tacoronte-Acentejo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "14227564"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Tacoronte-Acentejo"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1992"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "28.4797"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-16.4133"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Tacoronte-Acentejo DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6501"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "31"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Tarragona_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11831388"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Tarragona"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1945"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "41.1333"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "1.25"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Tarragona DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "13200"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "32"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Terra_Alta_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11831910"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Terra Alta"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1972"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "41.05"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "0.433333"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Terra Alta DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "55586"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "62"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Tierra_del_Vino_de_Zamora_DO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "19357370"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "C.R.D.O. Tierra del Vino de Zamora"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2007"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "41.4989"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-5.75556"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Tierra del Vino de Zamora DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "803"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Toro_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11355167"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O. Toro"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1987"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "41.5256"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-5.39111"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Toro DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "33513"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "63"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Txakoli_de_Álava",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "19386696"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Arabako Txakolina-Txakolí de Álava-Chacolí de Álava"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2002"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Arabako Txakolina-Txakolí de Álava-Chacolí de Álava DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4592"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Uclés_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "22454730"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O. Uclés"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2003"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "39.9833"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-2.85"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Uclés DO"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "32564"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Utiel-Requena",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11898031"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Utiel - Requena"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1932"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "39.5062"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-1.18103"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Utiel - Requena DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "327842"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "59"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Valdepeñas_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11645383"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P Valdepeñas"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1932"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "38.7667"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-3.4"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Valdepeñas DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "616017"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "17"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Valencia_(DO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11975579"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Valencia"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1932"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "39.4667"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-0.375"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Valencia DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "327842"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "106"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Valle_de_Güímar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "22420064"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Valle de Güímar"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1996"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "28.3106"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-16.4131"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Valle de Güímar DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1449"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Valle_de_la_Orotava",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "22420355"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Valle de la Orotava"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1995"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "28.3919"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-16.5253"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Valle de la Orotava DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2140"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "14"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Vinos_de_Madrid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11607982"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Vinos de Madrid"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2003"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "40.2847"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-4.01361"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Vinos de Madrid DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "28487"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "44"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Ycoden-Daute-Isora",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://dbpedia.org/ontology/wikiPageID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "22436937"
+  } ],
+  "http://dbpedia.org/property/officialName" : [ {
+    "@value" : "D.O.P. Ycoden-Daute-Isora"
+  } ],
+  "http://dbpedia.org/property/year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1994"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "28.3744"
+  } ],
+  "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "-16.6556"
+  } ],
+  "https://w3id.org/winecatalogue#hasName" : [ {
+    "@value" : "Ycoden-Daute-Isora DOP"
+  } ],
+  "https://w3id.org/winecatalogue#wineProduced" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1170"
+  } ],
+  "https://w3id.org/winecatalogue#wineries" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/abstract",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/Winery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A place where wine is made, especially from grapes that are grown there."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://schema.org"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Winery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#versionIRI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A data property that permits to identofy the latiture according to the WGS84"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/2003/01/geo/wgs84_pos#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "latitude"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A data property that permit to identify a longitude according to WGS84"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/2003/01/geo/wgs84_pos#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "longitude"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/core/Currency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The class of units of measure for price"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "https://saref.etsi.org/core/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Currency"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://saref.etsi.org/core/UnitOfMeasure"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/core/UnitOfMeasure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The unit of measure is a standard for measurement of a quantity, such as a Property. For example, Power is a property and Watt is a unit of power that represents a definite predetermined power: when we say 10 Watt, we actually mean 10 times the definite predetermined power called \"watt\". Our definition is based on the definition of unit of measure in the Ontology of units of Measure (OM). We propose here a list of some units of measure that are relevant for the purpose of SAREF, but this list can be extended, also using some other ontologies rather than the Ontology of units of Measure (OM)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://saref.etsi.org/core/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Unit Of Measure"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/core/unitOfMeasure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that facilitate the specification of unit of measure for a Measurement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://saref.etsi.org/core/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "unit of measure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/abstract" : [ {
+    "@language" : "en",
+    "@value" : "The domain of the ontology is framed around the classification of wines and their main characteristics. The scope of the ontology will be modelled on the characteristics of wine as well as the regions to which they belong."
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "An ontology devoted to describe the spanish wine characteristics and prices."
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "Wine Cataloguing Ontology"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/winecatalogue/1.0.0"
+  }, {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue/1.0.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "Initial version of the ontology with the incorporation of the following datasets: \n\n- https://www.kaggle.com/datasets/fedesoriano/spanish-wine-quality-dataset \n\n- https://dbpedia.org/page/Category:Wine_regions_of_Spain\n\n- https://dbpedia.org/page/Category:Wineries_of_Spain"
+  } ],
+  "https://www.dublincore.org/specifications/bibo/bibo/bibo.rdf.xml#status" : [ {
+    "@language" : "en",
+    "@value" : "Draft"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An area of land that has its own government, army, etc"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Country"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#DeepAmber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WhiteWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Deep Amber"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#DeepBrown",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WhiteWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "DeepBrown"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#DeepCopper",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RoseWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Deep Copper"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#DeepGarnet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RedWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Deep Garnet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#DeepGold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WhiteWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Deep Gold"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#DeepPink",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RoseWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Deep Pink"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#DeepPurple",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RedWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Deep Purple"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#DeepRuby",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RedWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Deep Ruby"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#DeepSalmon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RoseWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Deep Salmon"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#DeepStraw",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WhiteWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Deep Straw"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#DeepTawny",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RedWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Deep Tawny"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#DeepYellow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WhiteWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Deep Yellow"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#DryWine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineSugar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dry wine"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#Good",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A concept that refers to good wines"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Good"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineQuality"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#LightFlavour",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineFlavour"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "light flavour"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#MediumBrown",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WhiteWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medium Brown"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#MediumCopper",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RoseWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medium Copper"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#MediumFlavour",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineFlavour"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "medium flavour"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#MediumGold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WhiteWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medium Gold"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#MediumPink",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RoseWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medium Pink"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#MediumPurple",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RedWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medium Purple"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#MediumRuby",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RedWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medium Ruby"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#MediumSalmon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RoseWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medium Salmon"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#MediumStraw",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WhiteWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medium Straw"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#MediumTawny",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RedWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medium tawny"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#MediumYellow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WhiteWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medium Yellow"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#Medium_Amber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WhiteWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medium amber"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#Medium_Garnet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RedWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medium Garnet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#PaleAmber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WhiteWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pale Amber"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#PaleBrown",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WhiteWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pale Brown"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#PaleCopper",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RoseWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pale Copper"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#PaleGold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WhiteWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pale Gold"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#PalePink",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RoseWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pale Pink"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#PalePurple",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RedWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pale Purple"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#PaleRuby",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RedWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pale Ruby"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#PaleSalmon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RoseWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pale Salmon"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#PaleStraw",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WhiteWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pale Straw"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#PaleTawny",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RedWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pale Tawny"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#PaleYellow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WhiteWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pale Yellow"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#Pale_Garnet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#RedWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pale Garnet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#Poor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A concept that represnts fair wines"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Poor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineQuality"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#Price",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The quantity of one thing and especially money that is exchanged or demanded in exchange for another"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Price"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#RedWine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineColor"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#RoseWine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineColor"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#SemiDry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineSugar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "semi dry"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#StrongFlavour",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineFlavour"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "strong flavour"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#Sweet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineSugar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sweet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#VeryGood",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A concept that refers to an excelent wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Very Good"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineQuality"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#VeryPoor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A concept that refers to a not desired wine quality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Very Poor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineQuality"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#WhiteWine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineColor"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#Wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An alcoholic drink that is usually made from grapes, but can also be made from other fruits or flowers. It is made by fermenting the fruit with water and sugar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Wine"
+  }, {
+    "@id" : "_:genid7"
+  }, {
+    "@id" : "_:genid8"
+  }, {
+    "@id" : "_:genid9"
+  }, {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#WineBody",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Wine body refers to the richness and weight of the wine in your mouth. Other drinks have a body as well. Take milk, for example. It's not difficult to use fat levels to tell the difference between skim and whole milk."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wine Body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineTaste"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#WineColor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The color of wine indicates age, grape variety, density of flavor, acidity and more"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wine Color"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineDescriptor"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineTaste"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#WineDescriptor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The use of wine tasting descriptors allows the taster to qualitatively relate the aromas and flavors that the taster experiences and can be used in assessing the overall quality of wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wine Descriptor"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#WineFlavour",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Flavor refers to the taste of a wine in your mouth. As well as reflecting the aromas absorbed retro-nasally, the overall flavor of a wine is also influenced by the wine’s acidity, sweetness, alcohol level, tannins, astringency, body and in sparkling wines by its fizziness, as these components can accentuate or neutralize the flavors."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wine Flavour"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineTaste"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#WineQuality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Wine quality refers to the factors that go into producing a wine, as well as the indicators or characteristics that tell you if the wine is of high quality. When you know what influences and signifies wine quality, you'll be in a better position to make good purchases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wine Quality"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#WineSugar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The sugars in wine grapes are what make winemaking possible. During the process of fermentation, sugars are broken down and converted by yeasts into ethanol alcohol and carbon dioxide. Grapes accumulate sugars as they grow on the grapevine through the translocation of sucrose molecules that are produced by photosynthesis from the leaves. During ripening the sucrose molecules are hydrolyzed (inverted) by the enzyme invertase into glucose and fructose. By the time of harvest, between 15-25% of the grape will be composed of simple sugars. Both glucose and fructose are six-carbon sugars but three, four, five and seven-carbon sugars are also present in the grape."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wine Sugar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineTaste"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#WineTaste",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A concept that represents the flvour of teh wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wine Taste"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineDescriptor"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#WineType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The wine type refers to the wine variety"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wine Type"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#acidTaste",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineBody"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "acid taste"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#acidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A data property that represents the acidity score, defined as wine's “pucker” or tartness; it's what makes a wine refreshing and your tongue salivate and want another sip [from 1-5]"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "acidity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#bodyScore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A data property that represents the richness and weight of the wine in your mouth [from 1-5]"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "body score"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Data property that represents the name of an entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  }, {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#hasPrice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that identify a price for a specific wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has price"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#hasRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that permit to define a wine region for an specific wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has region"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#hasValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A data property that refers the specific value for a measurement or currency"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#hasWine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that represents the Wines that a Winery have."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://schema.org/Winery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/winecatalogue#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#isWineOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/winecatalogue#isWineOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#hasWineDescriptor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that details the wine characterstics according to the flavour and body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has wine descriptor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineDescriptor"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#hasWineQuality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that identifies wine quality to an specific wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has wine quality"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#hasWineType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that identifies the wine variety to an specific wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has wine type"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A data property that permit to define an id for an entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#isWineOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that identifies the winery of an specific wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is wine of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#hasWine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#mediumTaste",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineBody"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "medium taste"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#numReviews",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Number of users that reviewed the wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "number of reviews"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#rating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A data property that represents the average rating given to the wine by the users [from 1-5]"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#weakTaste",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/winecatalogue#WineBody"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "weak taste"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#wineProduced",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A data property that reflects the quantity of wine produced in a region."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "wine produced"
+  } ]
+}, {
+  "@id" : "https://w3id.org/winecatalogue#wineries",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A data property to define the number of wineries for a region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/winecatalogue#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "wineries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://www.dublincore.org/specifications/bibo/bibo/bibo.rdf.xml#status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
