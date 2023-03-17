@@ -1,0 +1,21 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "winecatalogue:WineBody" "winecatalogue:WineSugar" "winecatalogue:VeryGood" "winecatalogue:Poor" "winecatalogue:RoseWine" "ns4:Country" "ns4:Wine" "winecatalogue:Country" "winecatalogue:RedWine" "winecatalogue:WhiteWine" "winecatalogue:Good" "winecatalogue:WineDescriptor" "ns3:Currency" "winecatalogue:VeryPoor" "winecatalogue:WineFlavour" "winecatalogue:WineQuality" "winecatalogue:WineTaste" "winecatalogue:Wine" "winecatalogue:WineColor" "ns3:UnitOfMeasure" ; /*classes style*/
+	"winecatalogue:RedWine" -> "winecatalogue:WineColor" [ label = "rdfs:subClassOf" ];
+	"ns3:Currency" -> "ns3:UnitOfMeasure" [ label = "rdfs:subClassOf" ];
+	"winecatalogue:RoseWine" -> "winecatalogue:WineColor" [ label = "rdfs:subClassOf" ];
+	"winecatalogue:Good" -> "winecatalogue:WineQuality" [ label = "rdfs:subClassOf" ];
+	"winecatalogue:WineBody" -> "winecatalogue:WineTaste" [ label = "rdfs:subClassOf" ];
+	"winecatalogue:WineSugar" -> "winecatalogue:WineTaste" [ label = "rdfs:subClassOf" ];
+	"winecatalogue:Country" -> "ns4:Country" [ label = "rdfs:subClassOf" ];
+	"winecatalogue:WhiteWine" -> "winecatalogue:WineColor" [ label = "rdfs:subClassOf" ];
+	"winecatalogue:WineTaste" -> "winecatalogue:WineDescriptor" [ label = "rdfs:subClassOf" ];
+	"winecatalogue:Wine" -> "ns4:Wine" [ label = "rdfs:subClassOf" ];
+	"winecatalogue:Poor" -> "winecatalogue:WineQuality" [ label = "rdfs:subClassOf" ];
+	"winecatalogue:VeryPoor" -> "winecatalogue:WineQuality" [ label = "rdfs:subClassOf" ];
+	"winecatalogue:WineFlavour" -> "winecatalogue:WineTaste" [ label = "rdfs:subClassOf" ];
+	"winecatalogue:WineColor" -> "winecatalogue:WineDescriptor" [ label = "rdfs:subClassOf" ];
+	"winecatalogue:VeryGood" -> "winecatalogue:WineQuality" [ label = "rdfs:subClassOf" ];
+
+}
