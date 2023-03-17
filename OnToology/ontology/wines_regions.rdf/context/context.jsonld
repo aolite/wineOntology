@@ -1,0 +1,70 @@
+{
+  "@context" : {
+    "hasPrice" : {
+      "@id" : "https://w3id.org/winecatalogue#hasPrice"
+    },
+    "wineries" : {
+      "@id" : "https://w3id.org/winecatalogue#wineries"
+    },
+    "wineProduced" : {
+      "@id" : "https://w3id.org/winecatalogue#wineProduced"
+    },
+    "Winery" : {
+      "@id" : "http://schema.org/Winery"
+    },
+    "Country" : {
+      "@id" : "https://w3id.org/winecatalogue#Country"
+    },
+    "numReviews" : {
+      "@id" : "https://w3id.org/winecatalogue#numReviews"
+    },
+    "hasName" : {
+      "@id" : "https://w3id.org/winecatalogue#hasName"
+    },
+    "unitOfMeasure" : {
+      "@id" : "https://saref.etsi.org/core/unitOfMeasure"
+    },
+    "long" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#long"
+    },
+    "officialName" : {
+      "@id" : "http://dbpedia.org/property/officialName"
+    },
+    "wikiPageID" : {
+      "@id" : "http://dbpedia.org/ontology/wikiPageID"
+    },
+    "id" : {
+      "@id" : "https://w3id.org/winecatalogue#id"
+    },
+    "WineRegion" : {
+      "@id" : "http://dbpedia.org/resource/Category:WineRegion"
+    },
+    "hasWineType" : {
+      "@id" : "https://w3id.org/winecatalogue#hasWineType"
+    },
+    "location" : {
+      "@id" : "http://dbpedia.org/ontology/location"
+    },
+    "bodyScore" : {
+      "@id" : "https://w3id.org/winecatalogue#bodyScore"
+    },
+    "acidity" : {
+      "@id" : "https://w3id.org/winecatalogue#acidity"
+    },
+    "year" : {
+      "@id" : "http://dbpedia.org/property/year"
+    },
+    "lat" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#lat"
+    },
+    "rating" : {
+      "@id" : "https://w3id.org/winecatalogue#rating"
+    },
+    "hasRegion" : {
+      "@id" : "https://w3id.org/winecatalogue#hasRegion"
+    },
+    "Wine" : {
+      "@id" : "https://w3id.org/winecatalogue#Wine"
+    }
+  }
+}
