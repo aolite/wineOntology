@@ -1,0 +1,21 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "j.2:WineColor" "j.2:VeryPoor" "j.2:WineBody" "j.2:VeryGood" "j.2:Wine" "j.1:Country" "j.1:Wine" "j.2:Country" "j.2:WineTaste" "j.2:Good" "https://saref.etsi.org/core/Currency" "j.2:WineQuality" "j.2:WineSugar" "j.2:RedWine" "j.2:Poor" "j.2:WineDescriptor" "j.2:WineFlavour" "j.2:RoseWine" "j.2:WhiteWine" "https://saref.etsi.org/core/UnitOfMeasure" ; /*classes style*/
+	"j.2:RedWine" -> "j.2:WineColor" [ label = "rdfs:subClassOf" ];
+	"j.2:VeryGood" -> "j.2:WineQuality" [ label = "rdfs:subClassOf" ];
+	"https://saref.etsi.org/core/Currency" -> "https://saref.etsi.org/core/UnitOfMeasure" [ label = "rdfs:subClassOf" ];
+	"j.2:WhiteWine" -> "j.2:WineColor" [ label = "rdfs:subClassOf" ];
+	"j.2:WineTaste" -> "j.2:WineDescriptor" [ label = "rdfs:subClassOf" ];
+	"j.2:Good" -> "j.2:WineQuality" [ label = "rdfs:subClassOf" ];
+	"j.2:RoseWine" -> "j.2:WineColor" [ label = "rdfs:subClassOf" ];
+	"j.2:WineBody" -> "j.2:WineTaste" [ label = "rdfs:subClassOf" ];
+	"j.2:Country" -> "j.1:Country" [ label = "rdfs:subClassOf" ];
+	"j.2:WineFlavour" -> "j.2:WineTaste" [ label = "rdfs:subClassOf" ];
+	"j.2:WineSugar" -> "j.2:WineTaste" [ label = "rdfs:subClassOf" ];
+	"j.2:Wine" -> "j.1:Wine" [ label = "rdfs:subClassOf" ];
+	"j.2:WineColor" -> "j.2:WineDescriptor" [ label = "rdfs:subClassOf" ];
+	"j.2:Poor" -> "j.2:WineQuality" [ label = "rdfs:subClassOf" ];
+	"j.2:VeryPoor" -> "j.2:WineQuality" [ label = "rdfs:subClassOf" ];
+
+}
