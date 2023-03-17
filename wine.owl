@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="https://w3id.org/winecatalogue"
+     xml:base="https://w3id.org/def/winecatalogue"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="https://w3id.org/winecatalogue"
-     versionIRI="https://w3id.org/winecatalogue/1.0.0">
+     ontologyIRI="https://w3id.org/def/winecatalogue"
+     versionIRI="https://w3id.org/def/winecatalogue/1.0.0">
     <Prefix name="" IRI="https://w3id.org/winecatalogue"/>
     <Prefix name="dbc" IRI="http://dbpedia.org/resource/Category:"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
