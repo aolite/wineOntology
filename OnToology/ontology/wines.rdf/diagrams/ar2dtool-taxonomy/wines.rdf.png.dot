@@ -1,0 +1,21 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "ns2:WineColor" "ns2:VeryPoor" "ns2:WineBody" "ns2:VeryGood" "ns2:Wine" "ns4:Country" "ns4:Wine" "ns2:Country" "ns2:WineTaste" "ns2:Good" "ns3:Currency" "ns2:WineQuality" "ns2:WineSugar" "ns2:RedWine" "ns2:Poor" "ns2:WineDescriptor" "ns2:WineFlavour" "ns2:RoseWine" "ns2:WhiteWine" "ns3:UnitOfMeasure" ; /*classes style*/
+	"ns2:RedWine" -> "ns2:WineColor" [ label = "rdfs:subClassOf" ];
+	"ns2:VeryGood" -> "ns2:WineQuality" [ label = "rdfs:subClassOf" ];
+	"ns3:Currency" -> "ns3:UnitOfMeasure" [ label = "rdfs:subClassOf" ];
+	"ns2:WhiteWine" -> "ns2:WineColor" [ label = "rdfs:subClassOf" ];
+	"ns2:WineTaste" -> "ns2:WineDescriptor" [ label = "rdfs:subClassOf" ];
+	"ns2:Good" -> "ns2:WineQuality" [ label = "rdfs:subClassOf" ];
+	"ns2:RoseWine" -> "ns2:WineColor" [ label = "rdfs:subClassOf" ];
+	"ns2:WineBody" -> "ns2:WineTaste" [ label = "rdfs:subClassOf" ];
+	"ns2:Country" -> "ns4:Country" [ label = "rdfs:subClassOf" ];
+	"ns2:WineFlavour" -> "ns2:WineTaste" [ label = "rdfs:subClassOf" ];
+	"ns2:WineSugar" -> "ns2:WineTaste" [ label = "rdfs:subClassOf" ];
+	"ns2:Wine" -> "ns4:Wine" [ label = "rdfs:subClassOf" ];
+	"ns2:WineColor" -> "ns2:WineDescriptor" [ label = "rdfs:subClassOf" ];
+	"ns2:Poor" -> "ns2:WineQuality" [ label = "rdfs:subClassOf" ];
+	"ns2:VeryPoor" -> "ns2:WineQuality" [ label = "rdfs:subClassOf" ];
+
+}
